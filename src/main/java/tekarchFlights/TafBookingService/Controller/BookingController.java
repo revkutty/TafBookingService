@@ -1,6 +1,8 @@
 package tekarchFlights.TafBookingService.Controller;
 
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -18,6 +20,9 @@ import java.util.Map;
 @RequestMapping("/api/bookings")
 public class BookingController {
 
+
+    private static final Logger logger = LogManager.getLogger(BookingController.class);
+
     @Autowired
     private BookingService bookingService;
 
@@ -33,12 +38,12 @@ public class BookingController {
         return ResponseEntity.ok(bookingResponse);
     }
 
- /*   @GetMapping("/user/{userId}")
-    public ResponseEntity<List<BookingResponse>> getBookingsByUserId(@PathVariable Long userId) {
-        List<BookingResponse> bookings = bookingService.getBookingsByUserId(userId);
+
+    @GetMapping
+    public ResponseEntity<List<BookingResponse>> getAllFlights() {
+        List<BookingResponse> bookings = bookingService.getAllBookings();
         return ResponseEntity.ok(bookings);
     }
-      */
 
     @GetMapping("/user/{userId}")
     public ResponseEntity<List<Map<String, Object>>> getBookingsByUserId(@PathVariable Long userId) {
@@ -47,6 +52,26 @@ public class BookingController {
             return ResponseEntity.notFound().build();
         }
         return ResponseEntity.ok(bookings);
+    }
+
+    @GetMapping("/flight/{flightId}")
+    public ResponseEntity<List<BookingResponse>> getBookingsByFlightId(@PathVariable Long flightId) {
+        try {
+            List<BookingResponse> flightBookings = bookingService.getBookingsByFlightId(flightId);
+
+            // Check if the result is empty or null
+            if (flightBookings == null || flightBookings.isEmpty()) {
+                return ResponseEntity.notFound().build(); // Return 404 if no bookings are found
+            }
+
+            // Return 200 with the list of bookings
+            return ResponseEntity.ok(flightBookings);
+        } catch (Exception ex){
+             logger.error("Error retrieving bookings for flightId {}: {}", flightId, ex.getMessage(), ex);
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
+                    .body(null); // Return 500 Internal Server Error
+        }
+
     }
 
 
