@@ -5,6 +5,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.HttpStatus;
@@ -28,9 +29,19 @@ public class BookingService {
 
     private static final Logger logger = LogManager.getLogger(BookingService.class);
 
-    private static final String DATASTORE_BOOKING_URL = "http://localhost:8081/api/bookings";
-    private static final String DATASTORE_FLIGHT_URL = "http://localhost:8081/api/flights";
-    private static final String DATASTORE_USER_URL = "http://localhost:8081/api/users";
+    @Value("${datasource.flight.service.url}")
+    private String DATASTORE_FLIGHT_URL;
+
+    @Value("${datasource.booking.service.url}")
+    private String DATASTORE_BOOKING_URL;
+
+    @Value("${datasource.user.service.url}")
+    private String DATASTORE_USER_URL;
+
+
+    //  private static final String DATASTORE_BOOKING_URL = "http://localhost:8081/api/bookings";
+  //  private static final String DATASTORE_FLIGHT_URL = "http://localhost:8081/api/flights";
+  //  private static final String DATASTORE_USER_URL = "http://localhost:8081/api/users";
 
 
     public BookingResponse createBooking(BookingRequest bookingRequest) {

@@ -1,0 +1,1119 @@
+2025-01-22 15:42:21 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-01-22 15:42:21 [restartedMain] INFO  tekarchFlights.TafBookingService.TafBookingServiceApplication - Starting TafBookingServiceApplication using Java 17.0.9 with PID 22760 (C:\Users\vsaji\IdeaProjects\TafBookingService\build\classes\java\main started by vsaji in C:\Users\vsaji\IdeaProjects\TafBookingService)
+2025-01-22 15:42:21 [restartedMain] INFO  tekarchFlights.TafBookingService.TafBookingServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-22 15:42:21 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-22 15:42:21 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-22 15:42:23 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8084 (http)
+2025-01-22 15:42:23 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8084"]
+2025-01-22 15:42:23 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-22 15:42:23 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-22 15:42:23 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-22 15:42:23 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1641 ms
+2025-01-22 15:42:24 [restartedMain] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 12 mappings in 'requestMappingHandlerMapping'
+2025-01-22 15:42:24 [restartedMain] DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2025-01-22 15:42:24 [restartedMain] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-01-22 15:42:24 [restartedMain] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-01-22 15:42:24 [restartedMain] WARN  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-01-22 15:42:24 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8084"]
+2025-01-22 15:42:24 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8084 (http) with context path '/'
+2025-01-22 15:42:24 [restartedMain] INFO  tekarchFlights.TafBookingService.TafBookingServiceApplication - Started TafBookingServiceApplication in 2.989 seconds (process running for 3.828)
+2025-01-22 15:42:33 [http-nio-8084-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-22 15:42:33 [http-nio-8084-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-22 15:42:33 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2025-01-22 15:42:33 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2025-01-22 15:42:33 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2025-01-22 15:42:33 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@59bb9674
+2025-01-22 15:42:33 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@41f37e10
+2025-01-22 15:42:33 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-01-22 15:42:33 [http-nio-8084-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-01-22 15:42:33 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/api/bookings/flight/1", parameters={}
+2025-01-22 15:42:33 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to tekarchFlights.TafBookingService.Controller.BookingController#getBookingsByFlightId(Long)
+2025-01-22 15:42:33 [http-nio-8084-exec-1] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:8081/api/flights/1
+2025-01-22 15:42:33 [http-nio-8084-exec-1] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-22 15:42:33 [http-nio-8084-exec-1] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-22 15:42:33 [http-nio-8084-exec-1] DEBUG org.springframework.web.client.RestTemplate - Reading to [java.util.List<tekarchFlights.TafBookingService.DTO.BookingResponse>]
+2025-01-22 15:42:34 [http-nio-8084-exec-1] ERROR tekarchFlights.TafBookingService.Service.BookingService - Error fetching bookings for flightId 1: Error while extracting response for type [java.util.List<tekarchFlights.TafBookingService.DTO.BookingResponse>] and content type [application/json]
+org.springframework.web.client.RestClientException: Error while extracting response for type [java.util.List<tekarchFlights.TafBookingService.DTO.BookingResponse>] and content type [application/json]
+	at org.springframework.web.client.HttpMessageConverterExtractor.extractData(HttpMessageConverterExtractor.java:127) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.RestTemplate$ResponseEntityResponseExtractor.extractData(RestTemplate.java:1183) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.RestTemplate$ResponseEntityResponseExtractor.extractData(RestTemplate.java:1166) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:903) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:801) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:712) ~[spring-web-6.2.1.jar:6.2.1]
+	at tekarchFlights.TafBookingService.Service.BookingService.getBookingsByFlightId(BookingService.java:90) [main/:?]
+	at tekarchFlights.TafBookingService.Controller.BookingController.getBookingsByFlightId(BookingController.java:60) [main/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257) [spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190) [spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) [spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) [spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) [spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) [spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088) [spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) [spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) [spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) [spring-webmvc-6.2.1.jar:6.2.1]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) [tomcat-embed-core-10.1.34.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) [spring-webmvc-6.2.1.jar:6.2.1]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) [tomcat-embed-core-10.1.34.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) [tomcat-embed-websocket-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) [spring-web-6.2.1.jar:6.2.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) [spring-web-6.2.1.jar:6.2.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) [spring-web-6.2.1.jar:6.2.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+Caused by: org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.ArrayList<tekarchFlights.TafBookingService.DTO.BookingResponse>` from Object value (token `JsonToken.START_OBJECT`)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:409) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.read(AbstractJackson2HttpMessageConverter.java:357) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.HttpMessageConverterExtractor.extractData(HttpMessageConverterExtractor.java:105) ~[spring-web-6.2.1.jar:6.2.1]
+	... 57 more
+Caused by: com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `java.util.ArrayList<tekarchFlights.TafBookingService.DTO.BookingResponse>` from Object value (token `JsonToken.START_OBJECT`)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 1]
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59) ~[jackson-databind-2.18.2.jar:2.18.2]
+	at com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1767) ~[jackson-databind-2.18.2.jar:2.18.2]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1541) ~[jackson-databind-2.18.2.jar:2.18.2]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1488) ~[jackson-databind-2.18.2.jar:2.18.2]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.handleNonArray(CollectionDeserializer.java:402) ~[jackson-databind-2.18.2.jar:2.18.2]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:254) ~[jackson-databind-2.18.2.jar:2.18.2]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:30) ~[jackson-databind-2.18.2.jar:2.18.2]
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:342) ~[jackson-databind-2.18.2.jar:2.18.2]
+	at com.fasterxml.jackson.databind.ObjectReader._bindAndClose(ObjectReader.java:2125) ~[jackson-databind-2.18.2.jar:2.18.2]
+	at com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:1501) ~[jackson-databind-2.18.2.jar:2.18.2]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:398) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.read(AbstractJackson2HttpMessageConverter.java:357) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.HttpMessageConverterExtractor.extractData(HttpMessageConverterExtractor.java:105) ~[spring-web-6.2.1.jar:6.2.1]
+	... 57 more
+2025-01-22 15:42:34 [http-nio-8084-exec-1] ERROR tekarchFlights.TafBookingService.Controller.BookingController - Error retrieving bookings for flightId 1: Failed to fetch bookings
+java.lang.RuntimeException: Failed to fetch bookings
+	at tekarchFlights.TafBookingService.Service.BookingService.getBookingsByFlightId(BookingService.java:99) ~[main/:?]
+	at tekarchFlights.TafBookingService.Controller.BookingController.getBookingsByFlightId(BookingController.java:60) [main/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257) [spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190) [spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) [spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) [spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) [spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) [spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088) [spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) [spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) [spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) [spring-webmvc-6.2.1.jar:6.2.1]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) [tomcat-embed-core-10.1.34.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) [spring-webmvc-6.2.1.jar:6.2.1]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) [tomcat-embed-core-10.1.34.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) [tomcat-embed-websocket-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) [spring-web-6.2.1.jar:6.2.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) [spring-web-6.2.1.jar:6.2.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) [spring-web-6.2.1.jar:6.2.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+Caused by: org.springframework.web.client.RestClientException: Error while extracting response for type [java.util.List<tekarchFlights.TafBookingService.DTO.BookingResponse>] and content type [application/json]
+	at org.springframework.web.client.HttpMessageConverterExtractor.extractData(HttpMessageConverterExtractor.java:127) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.RestTemplate$ResponseEntityResponseExtractor.extractData(RestTemplate.java:1183) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.RestTemplate$ResponseEntityResponseExtractor.extractData(RestTemplate.java:1166) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:903) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:801) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:712) ~[spring-web-6.2.1.jar:6.2.1]
+	at tekarchFlights.TafBookingService.Service.BookingService.getBookingsByFlightId(BookingService.java:90) ~[main/:?]
+	... 51 more
+Caused by: org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.ArrayList<tekarchFlights.TafBookingService.DTO.BookingResponse>` from Object value (token `JsonToken.START_OBJECT`)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:409) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.read(AbstractJackson2HttpMessageConverter.java:357) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.HttpMessageConverterExtractor.extractData(HttpMessageConverterExtractor.java:105) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.RestTemplate$ResponseEntityResponseExtractor.extractData(RestTemplate.java:1183) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.RestTemplate$ResponseEntityResponseExtractor.extractData(RestTemplate.java:1166) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:903) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:801) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:712) ~[spring-web-6.2.1.jar:6.2.1]
+	at tekarchFlights.TafBookingService.Service.BookingService.getBookingsByFlightId(BookingService.java:90) ~[main/:?]
+	... 51 more
+Caused by: com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `java.util.ArrayList<tekarchFlights.TafBookingService.DTO.BookingResponse>` from Object value (token `JsonToken.START_OBJECT`)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 1]
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59) ~[jackson-databind-2.18.2.jar:2.18.2]
+	at com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1767) ~[jackson-databind-2.18.2.jar:2.18.2]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1541) ~[jackson-databind-2.18.2.jar:2.18.2]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1488) ~[jackson-databind-2.18.2.jar:2.18.2]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.handleNonArray(CollectionDeserializer.java:402) ~[jackson-databind-2.18.2.jar:2.18.2]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:254) ~[jackson-databind-2.18.2.jar:2.18.2]
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:30) ~[jackson-databind-2.18.2.jar:2.18.2]
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:342) ~[jackson-databind-2.18.2.jar:2.18.2]
+	at com.fasterxml.jackson.databind.ObjectReader._bindAndClose(ObjectReader.java:2125) ~[jackson-databind-2.18.2.jar:2.18.2]
+	at com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:1501) ~[jackson-databind-2.18.2.jar:2.18.2]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:398) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.read(AbstractJackson2HttpMessageConverter.java:357) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.HttpMessageConverterExtractor.extractData(HttpMessageConverterExtractor.java:105) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.RestTemplate$ResponseEntityResponseExtractor.extractData(RestTemplate.java:1183) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.RestTemplate$ResponseEntityResponseExtractor.extractData(RestTemplate.java:1166) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:903) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:801) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:712) ~[spring-web-6.2.1.jar:6.2.1]
+	at tekarchFlights.TafBookingService.Service.BookingService.getBookingsByFlightId(BookingService.java:90) ~[main/:?]
+	... 51 more
+2025-01-22 15:42:34 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2025-01-22 15:42:34 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Nothing to write: null body
+2025-01-22 15:42:34 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 500 INTERNAL_SERVER_ERROR
+2025-01-22 15:49:08 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-01-22 15:49:08 [restartedMain] INFO  tekarchFlights.TafBookingService.TafBookingServiceApplication - Starting TafBookingServiceApplication using Java 17.0.9 with PID 19504 (C:\Users\vsaji\IdeaProjects\TafBookingService\build\classes\java\main started by vsaji in C:\Users\vsaji\IdeaProjects\TafBookingService)
+2025-01-22 15:49:08 [restartedMain] INFO  tekarchFlights.TafBookingService.TafBookingServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-22 15:49:08 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-22 15:49:08 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-22 15:49:09 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8084 (http)
+2025-01-22 15:49:09 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8084"]
+2025-01-22 15:49:09 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-22 15:49:09 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-22 15:49:09 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-22 15:49:09 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1663 ms
+2025-01-22 15:49:10 [restartedMain] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 12 mappings in 'requestMappingHandlerMapping'
+2025-01-22 15:49:10 [restartedMain] DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2025-01-22 15:49:10 [restartedMain] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-01-22 15:49:10 [restartedMain] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-01-22 15:49:10 [restartedMain] WARN  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-01-22 15:49:10 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8084"]
+2025-01-22 15:49:10 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8084 (http) with context path '/'
+2025-01-22 15:49:10 [restartedMain] INFO  tekarchFlights.TafBookingService.TafBookingServiceApplication - Started TafBookingServiceApplication in 3.017 seconds (process running for 3.918)
+2025-01-22 15:49:25 [http-nio-8084-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-22 15:49:25 [http-nio-8084-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-22 15:49:25 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2025-01-22 15:49:25 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2025-01-22 15:49:25 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2025-01-22 15:49:25 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4936f839
+2025-01-22 15:49:25 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@2f8c2438
+2025-01-22 15:49:25 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-01-22 15:49:25 [http-nio-8084-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-01-22 15:49:25 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/api/bookings/flight/1", parameters={}
+2025-01-22 15:49:25 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to tekarchFlights.TafBookingService.Controller.BookingController#getBookingsByFlightId(Long)
+2025-01-22 15:49:25 [http-nio-8084-exec-1] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:8081/api/bookings/flight/1
+2025-01-22 15:49:25 [http-nio-8084-exec-1] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-22 15:49:25 [http-nio-8084-exec-1] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-22 15:49:25 [http-nio-8084-exec-1] DEBUG org.springframework.web.client.RestTemplate - Reading to [java.util.List<tekarchFlights.TafBookingService.DTO.BookingResponse>]
+2025-01-22 15:49:25 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2025-01-22 15:49:25 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Writing [[BookingResponse(id=null, user=UserResponse(id=1, username=johndoe, email=johndoe@example.com, phone (truncated)...]
+2025-01-22 15:49:26 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2025-01-22 16:05:00 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-01-22 16:05:00 [restartedMain] INFO  tekarchFlights.TafBookingService.TafBookingServiceApplication - Starting TafBookingServiceApplication using Java 17.0.9 with PID 23412 (C:\Users\vsaji\IdeaProjects\TafBookingService\build\classes\java\main started by vsaji in C:\Users\vsaji\IdeaProjects\TafBookingService)
+2025-01-22 16:05:00 [restartedMain] INFO  tekarchFlights.TafBookingService.TafBookingServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-22 16:05:00 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-22 16:05:00 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-22 16:05:02 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8084 (http)
+2025-01-22 16:05:02 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8084"]
+2025-01-22 16:05:02 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-22 16:05:02 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-22 16:05:02 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-22 16:05:02 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1602 ms
+2025-01-22 16:05:02 [restartedMain] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 12 mappings in 'requestMappingHandlerMapping'
+2025-01-22 16:05:02 [restartedMain] DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2025-01-22 16:05:02 [restartedMain] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-01-22 16:05:03 [restartedMain] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-01-22 16:05:03 [restartedMain] WARN  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-01-22 16:05:03 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8084"]
+2025-01-22 16:05:03 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8084 (http) with context path '/'
+2025-01-22 16:05:03 [restartedMain] INFO  tekarchFlights.TafBookingService.TafBookingServiceApplication - Started TafBookingServiceApplication in 2.909 seconds (process running for 3.738)
+2025-01-22 16:05:15 [http-nio-8084-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-22 16:05:15 [http-nio-8084-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-22 16:05:15 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2025-01-22 16:05:15 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2025-01-22 16:05:15 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2025-01-22 16:05:15 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@7ad7be0
+2025-01-22 16:05:15 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@3f4f052c
+2025-01-22 16:05:15 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-01-22 16:05:15 [http-nio-8084-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-01-22 16:05:15 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/api/bookings/flight/1", parameters={}
+2025-01-22 16:05:15 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to tekarchFlights.TafBookingService.Controller.BookingController#getBookingsByFlightId(Long)
+2025-01-22 16:05:15 [http-nio-8084-exec-1] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:8081/api/bookings/flight/1
+2025-01-22 16:05:15 [http-nio-8084-exec-1] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-22 16:05:15 [http-nio-8084-exec-1] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-22 16:05:15 [http-nio-8084-exec-1] DEBUG org.springframework.web.client.RestTemplate - Reading to [java.util.List<tekarchFlights.TafBookingService.DTO.BookingResponse>]
+2025-01-22 16:05:15 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2025-01-22 16:05:15 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Writing [[BookingResponse(id=null, user=UserResponse(id=1, username=johndoe, email=johndoe@example.com, phone (truncated)...]
+2025-01-22 16:05:15 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2025-01-22 16:24:56 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-01-22 16:24:56 [restartedMain] INFO  tekarchFlights.TafBookingService.TafBookingServiceApplication - Starting TafBookingServiceApplication using Java 17.0.9 with PID 12756 (C:\Users\vsaji\IdeaProjects\TafBookingService\build\classes\java\main started by vsaji in C:\Users\vsaji\IdeaProjects\TafBookingService)
+2025-01-22 16:24:56 [restartedMain] INFO  tekarchFlights.TafBookingService.TafBookingServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-22 16:24:56 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-22 16:24:56 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-22 16:24:58 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8084 (http)
+2025-01-22 16:24:58 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8084"]
+2025-01-22 16:24:58 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-22 16:24:58 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-22 16:24:58 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-22 16:24:58 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1564 ms
+2025-01-22 16:24:58 [restartedMain] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 12 mappings in 'requestMappingHandlerMapping'
+2025-01-22 16:24:58 [restartedMain] DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2025-01-22 16:24:58 [restartedMain] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-01-22 16:24:58 [restartedMain] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-01-22 16:24:59 [restartedMain] WARN  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-01-22 16:24:59 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8084"]
+2025-01-22 16:24:59 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8084 (http) with context path '/'
+2025-01-22 16:24:59 [restartedMain] INFO  tekarchFlights.TafBookingService.TafBookingServiceApplication - Started TafBookingServiceApplication in 2.866 seconds (process running for 3.678)
+2025-01-22 16:25:12 [http-nio-8084-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-22 16:25:12 [http-nio-8084-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-22 16:25:12 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2025-01-22 16:25:12 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2025-01-22 16:25:12 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2025-01-22 16:25:12 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@5ee3c94f
+2025-01-22 16:25:12 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@51e85e3f
+2025-01-22 16:25:12 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-01-22 16:25:12 [http-nio-8084-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2025-01-22 16:25:12 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/api/bookings/flight/1", parameters={}
+2025-01-22 16:25:12 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to tekarchFlights.TafBookingService.Controller.BookingController#getBookingsByFlightId(Long)
+2025-01-22 16:25:13 [http-nio-8084-exec-1] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:8081/api/bookings/flight/1
+2025-01-22 16:25:13 [http-nio-8084-exec-1] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-22 16:25:13 [http-nio-8084-exec-1] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-22 16:25:13 [http-nio-8084-exec-1] DEBUG org.springframework.web.client.RestTemplate - Reading to [java.util.List<tekarchFlights.TafBookingService.DTO.BookingResponse>]
+2025-01-22 16:25:13 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2025-01-22 16:25:13 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Writing [[BookingResponse(id=null, user=null, flight=null, status=null, createdAt=null, updatedAt=null), Book (truncated)...]
+2025-01-22 16:25:13 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2025-01-22 16:29:19 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-01-22 16:29:19 [restartedMain] INFO  tekarchFlights.TafBookingService.TafBookingServiceApplication - Starting TafBookingServiceApplication using Java 17.0.9 with PID 22100 (C:\Users\vsaji\IdeaProjects\TafBookingService\build\classes\java\main started by vsaji in C:\Users\vsaji\IdeaProjects\TafBookingService)
+2025-01-22 16:29:19 [restartedMain] INFO  tekarchFlights.TafBookingService.TafBookingServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-22 16:29:19 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-22 16:29:19 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-22 16:29:20 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8084 (http)
+2025-01-22 16:29:20 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8084"]
+2025-01-22 16:29:20 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-22 16:29:20 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-22 16:29:20 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-22 16:29:20 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1616 ms
+2025-01-22 16:29:21 [restartedMain] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 12 mappings in 'requestMappingHandlerMapping'
+2025-01-22 16:29:21 [restartedMain] DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2025-01-22 16:29:21 [restartedMain] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-01-22 16:29:21 [restartedMain] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-01-22 16:29:21 [restartedMain] WARN  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-01-22 16:29:21 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8084"]
+2025-01-22 16:29:21 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8084 (http) with context path '/'
+2025-01-22 16:29:21 [restartedMain] INFO  tekarchFlights.TafBookingService.TafBookingServiceApplication - Started TafBookingServiceApplication in 2.931 seconds (process running for 3.694)
+2025-01-22 16:29:43 [http-nio-8084-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-22 16:29:43 [http-nio-8084-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-22 16:29:43 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2025-01-22 16:29:43 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2025-01-22 16:29:43 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2025-01-22 16:29:43 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@fadfcd9
+2025-01-22 16:29:43 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@158e9a15
+2025-01-22 16:29:43 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-01-22 16:29:43 [http-nio-8084-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2025-01-22 16:29:43 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/api/bookings/flight/1", parameters={}
+2025-01-22 16:29:44 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to tekarchFlights.TafBookingService.Controller.BookingController#getBookingsByFlightId(Long)
+2025-01-22 16:29:44 [http-nio-8084-exec-1] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:8081/api/bookings/flight/1
+2025-01-22 16:29:44 [http-nio-8084-exec-1] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-22 16:29:44 [http-nio-8084-exec-1] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-22 16:29:44 [http-nio-8084-exec-1] DEBUG org.springframework.web.client.RestTemplate - Reading to [java.util.List<tekarchFlights.TafBookingService.DTO.BookingResponse>]
+2025-01-22 16:29:44 [http-nio-8084-exec-1] ERROR tekarchFlights.TafBookingService.Controller.BookingController - Error retrieving bookings for flightId 1: class java.util.ArrayList cannot be cast to class com.fasterxml.jackson.core.JsonParser (java.util.ArrayList is in module java.base of loader 'bootstrap'; com.fasterxml.jackson.core.JsonParser is in unnamed module of loader 'app')
+java.lang.ClassCastException: class java.util.ArrayList cannot be cast to class com.fasterxml.jackson.core.JsonParser (java.util.ArrayList is in module java.base of loader 'bootstrap'; com.fasterxml.jackson.core.JsonParser is in unnamed module of loader 'app')
+	at tekarchFlights.TafBookingService.Service.BookingService.getBookingsByFlightId(BookingService.java:119) ~[main/:?]
+	at tekarchFlights.TafBookingService.Controller.BookingController.getBookingsByFlightId(BookingController.java:60) [main/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257) [spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190) [spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) [spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) [spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) [spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) [spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088) [spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) [spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) [spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) [spring-webmvc-6.2.1.jar:6.2.1]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) [tomcat-embed-core-10.1.34.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) [spring-webmvc-6.2.1.jar:6.2.1]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) [tomcat-embed-core-10.1.34.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) [tomcat-embed-websocket-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) [spring-web-6.2.1.jar:6.2.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) [spring-web-6.2.1.jar:6.2.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) [spring-web-6.2.1.jar:6.2.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+2025-01-22 16:29:44 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2025-01-22 16:29:44 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Nothing to write: null body
+2025-01-22 16:29:44 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 500 INTERNAL_SERVER_ERROR
+2025-01-22 16:34:28 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-01-22 16:34:28 [restartedMain] INFO  tekarchFlights.TafBookingService.TafBookingServiceApplication - Starting TafBookingServiceApplication using Java 17.0.9 with PID 26588 (C:\Users\vsaji\IdeaProjects\TafBookingService\build\classes\java\main started by vsaji in C:\Users\vsaji\IdeaProjects\TafBookingService)
+2025-01-22 16:34:28 [restartedMain] INFO  tekarchFlights.TafBookingService.TafBookingServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-22 16:34:28 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-22 16:34:28 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-22 16:34:29 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8084 (http)
+2025-01-22 16:34:29 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8084"]
+2025-01-22 16:34:29 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-22 16:34:29 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-22 16:34:29 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-22 16:34:29 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1468 ms
+2025-01-22 16:34:30 [restartedMain] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 12 mappings in 'requestMappingHandlerMapping'
+2025-01-22 16:34:30 [restartedMain] DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2025-01-22 16:34:30 [restartedMain] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-01-22 16:34:30 [restartedMain] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-01-22 16:34:30 [restartedMain] WARN  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-01-22 16:34:30 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8084"]
+2025-01-22 16:34:30 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8084 (http) with context path '/'
+2025-01-22 16:34:30 [restartedMain] INFO  tekarchFlights.TafBookingService.TafBookingServiceApplication - Started TafBookingServiceApplication in 2.741 seconds (process running for 3.571)
+2025-01-22 16:34:39 [http-nio-8084-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-22 16:34:39 [http-nio-8084-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-22 16:34:39 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2025-01-22 16:34:39 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2025-01-22 16:34:39 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2025-01-22 16:34:39 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@223f26d1
+2025-01-22 16:34:39 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@7883f1ed
+2025-01-22 16:34:39 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-01-22 16:34:39 [http-nio-8084-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-01-22 16:34:39 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/api/bookings/flight/1", parameters={}
+2025-01-22 16:34:39 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to tekarchFlights.TafBookingService.Controller.BookingController#getBookingsByFlightId(Long)
+2025-01-22 16:34:39 [http-nio-8084-exec-1] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:8081/api/bookings/flight/1
+2025-01-22 16:34:39 [http-nio-8084-exec-1] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-22 16:34:39 [http-nio-8084-exec-1] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-22 16:34:39 [http-nio-8084-exec-1] DEBUG org.springframework.web.client.RestTemplate - Reading to [java.util.List<tekarchFlights.TafBookingService.DTO.BookingResponse>]
+2025-01-22 16:34:39 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2025-01-22 16:34:39 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Writing [[BookingResponse(id=null, user=UserResponse(id=1, username=johndoe, email=johndoe@example.com, phone (truncated)...]
+2025-01-22 16:34:39 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2025-01-22 16:35:12 [http-nio-8084-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/api/bookings", parameters={}
+2025-01-22 16:35:12 [http-nio-8084-exec-3] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to tekarchFlights.TafBookingService.Controller.BookingController#getAllFlights()
+2025-01-22 16:35:12 [http-nio-8084-exec-3] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:8081/api/bookings
+2025-01-22 16:35:12 [http-nio-8084-exec-3] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-22 16:35:12 [http-nio-8084-exec-3] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-22 16:35:12 [http-nio-8084-exec-3] DEBUG org.springframework.web.client.RestTemplate - Reading to [tekarchFlights.TafBookingService.DTO.BookingResponse[]]
+2025-01-22 16:35:12 [http-nio-8084-exec-3] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2025-01-22 16:35:12 [http-nio-8084-exec-3] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Writing [[BookingResponse(id=1, user=UserResponse(id=1, username=johndoe, email=johndoe@example.com, phone=12 (truncated)...]
+2025-01-22 16:35:12 [http-nio-8084-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2025-01-22 16:36:51 [http-nio-8084-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/api/bookings", parameters={}
+2025-01-22 16:36:51 [http-nio-8084-exec-6] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to tekarchFlights.TafBookingService.Controller.BookingController#createBooking(BookingRequest)
+2025-01-22 16:36:51 [http-nio-8084-exec-6] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [BookingRequest(user=7, flight=10, status=Booked)]
+2025-01-22 16:36:51 [http-nio-8084-exec-6] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:8081/api/flights/10
+2025-01-22 16:36:51 [http-nio-8084-exec-6] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-22 16:36:51 [http-nio-8084-exec-6] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-22 16:36:51 [http-nio-8084-exec-6] DEBUG org.springframework.web.client.RestTemplate - Reading to [tekarchFlights.TafBookingService.DTO.FlightResponse]
+2025-01-22 16:36:51 [http-nio-8084-exec-6] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:8081/api/users/7
+2025-01-22 16:36:51 [http-nio-8084-exec-6] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-22 16:36:51 [http-nio-8084-exec-6] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-22 16:36:51 [http-nio-8084-exec-6] DEBUG org.springframework.web.client.RestTemplate - Reading to [tekarchFlights.TafBookingService.DTO.UserResponse]
+2025-01-22 16:36:51 [http-nio-8084-exec-6] DEBUG org.springframework.web.client.RestTemplate - HTTP PUT http://localhost:8081/api/flights/10
+2025-01-22 16:36:51 [http-nio-8084-exec-6] DEBUG org.springframework.web.client.RestTemplate - Writing [FlightResponse(id=10, flightNumber=JJ456, departure=London, arrival=Paris, departureTime=2025-01-21T12:00, arrivalTime=2025-01-21T20:00, price=5800.0, availableSeats=159, createdAt=2025-01-19T23:38:18.888273, updatedAt=2025-01-19T23:38:18.888273)] with org.springframework.http.converter.json.MappingJackson2HttpMessageConverter
+2025-01-22 16:36:51 [http-nio-8084-exec-6] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-22 16:36:51 [http-nio-8084-exec-6] DEBUG org.springframework.web.client.RestTemplate - HTTP POST http://localhost:8081/api/bookings
+2025-01-22 16:36:51 [http-nio-8084-exec-6] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-22 16:36:51 [http-nio-8084-exec-6] DEBUG org.springframework.web.client.RestTemplate - Writing [BookingRequest(user=7, flight=10, status=Booked)] with org.springframework.http.converter.json.MappingJackson2HttpMessageConverter
+2025-01-22 16:36:51 [http-nio-8084-exec-6] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-22 16:36:51 [http-nio-8084-exec-6] DEBUG org.springframework.web.client.RestTemplate - Reading to [tekarchFlights.TafBookingService.DTO.BookingResponse]
+2025-01-22 16:36:51 [http-nio-8084-exec-6] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2025-01-22 16:36:51 [http-nio-8084-exec-6] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Writing [BookingResponse(id=27, user=UserResponse(id=7, username=uuuxxxxxohndoe, email=uuuxxxxhndoe@example.c (truncated)...]
+2025-01-22 16:36:51 [http-nio-8084-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2025-01-22 16:37:22 [http-nio-8084-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/api/bookings", parameters={}
+2025-01-22 16:37:22 [http-nio-8084-exec-7] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to tekarchFlights.TafBookingService.Controller.BookingController#getAllFlights()
+2025-01-22 16:37:22 [http-nio-8084-exec-7] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:8081/api/bookings
+2025-01-22 16:37:22 [http-nio-8084-exec-7] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-22 16:37:22 [http-nio-8084-exec-7] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-22 16:37:22 [http-nio-8084-exec-7] DEBUG org.springframework.web.client.RestTemplate - Reading to [tekarchFlights.TafBookingService.DTO.BookingResponse[]]
+2025-01-22 16:37:22 [http-nio-8084-exec-7] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2025-01-22 16:37:22 [http-nio-8084-exec-7] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Writing [[BookingResponse(id=1, user=UserResponse(id=1, username=johndoe, email=johndoe@example.com, phone=12 (truncated)...]
+2025-01-22 16:37:22 [http-nio-8084-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2025-01-22 16:38:01 [http-nio-8084-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet - PUT "/api/bookings/27/cancel", parameters={}
+2025-01-22 16:38:01 [http-nio-8084-exec-8] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to tekarchFlights.TafBookingService.Controller.BookingController#cancelBooking(Long)
+2025-01-22 16:38:01 [http-nio-8084-exec-8] DEBUG org.springframework.web.client.RestTemplate - HTTP PUT http://localhost:8081/api/bookings/27/update
+2025-01-22 16:38:01 [http-nio-8084-exec-8] DEBUG org.springframework.web.client.RestTemplate - Writing [BookingUpdateRequest(id=27, status=Cancelled)] with org.springframework.http.converter.json.MappingJackson2HttpMessageConverter
+2025-01-22 16:38:01 [http-nio-8084-exec-8] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-22 16:38:01 [http-nio-8084-exec-8] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json, application/yaml]
+2025-01-22 16:38:01 [http-nio-8084-exec-8] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Writing ["Booking with ID 27 has been cancelled successfully."]
+2025-01-22 16:38:01 [http-nio-8084-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2025-01-22 16:38:16 [http-nio-8084-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/api/bookings/27", parameters={}
+2025-01-22 16:38:16 [http-nio-8084-exec-9] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to tekarchFlights.TafBookingService.Controller.BookingController#getBookingById(Long)
+2025-01-22 16:38:16 [http-nio-8084-exec-9] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:8081/api/bookings/27
+2025-01-22 16:38:16 [http-nio-8084-exec-9] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-22 16:38:16 [http-nio-8084-exec-9] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-22 16:38:16 [http-nio-8084-exec-9] DEBUG org.springframework.web.client.RestTemplate - Reading to [tekarchFlights.TafBookingService.DTO.BookingResponse]
+2025-01-22 16:38:16 [http-nio-8084-exec-9] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2025-01-22 16:38:16 [http-nio-8084-exec-9] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Writing [BookingResponse(id=27, user=UserResponse(id=7, username=uuuxxxxxohndoe, email=uuuxxxxhndoe@example.c (truncated)...]
+2025-01-22 16:38:16 [http-nio-8084-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2025-01-22 16:39:46 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/api/bookings", parameters={}
+2025-01-22 16:39:46 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to tekarchFlights.TafBookingService.Controller.BookingController#getAllFlights()
+2025-01-22 16:39:46 [http-nio-8084-exec-2] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:8081/api/bookings
+2025-01-22 16:39:46 [http-nio-8084-exec-2] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-22 16:39:46 [http-nio-8084-exec-2] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-22 16:39:46 [http-nio-8084-exec-2] DEBUG org.springframework.web.client.RestTemplate - Reading to [tekarchFlights.TafBookingService.DTO.BookingResponse[]]
+2025-01-22 16:39:46 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2025-01-22 16:39:46 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Writing [[BookingResponse(id=1, user=UserResponse(id=1, username=johndoe, email=johndoe@example.com, phone=12 (truncated)...]
+2025-01-22 16:39:46 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2025-01-22 16:54:43 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-01-22 16:54:43 [restartedMain] INFO  tekarchFlights.TafBookingService.TafBookingServiceApplication - Starting TafBookingServiceApplication using Java 17.0.9 with PID 17880 (C:\Users\vsaji\IdeaProjects\TafBookingService\build\classes\java\main started by vsaji in C:\Users\vsaji\IdeaProjects\TafBookingService)
+2025-01-22 16:54:43 [restartedMain] INFO  tekarchFlights.TafBookingService.TafBookingServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-22 16:54:43 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-22 16:54:43 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-22 16:54:44 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8084 (http)
+2025-01-22 16:54:44 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8084"]
+2025-01-22 16:54:44 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-22 16:54:44 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-22 16:54:44 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-22 16:54:44 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1510 ms
+2025-01-22 16:54:45 [restartedMain] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 12 mappings in 'requestMappingHandlerMapping'
+2025-01-22 16:54:45 [restartedMain] DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2025-01-22 16:54:45 [restartedMain] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-01-22 16:54:45 [restartedMain] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-01-22 16:54:45 [restartedMain] WARN  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-01-22 16:54:45 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8084"]
+2025-01-22 16:54:45 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8084 (http) with context path '/'
+2025-01-22 16:54:45 [restartedMain] INFO  tekarchFlights.TafBookingService.TafBookingServiceApplication - Started TafBookingServiceApplication in 2.835 seconds (process running for 3.681)
+2025-01-22 16:56:23 [http-nio-8084-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-22 16:56:23 [http-nio-8084-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-22 16:56:23 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2025-01-22 16:56:23 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2025-01-22 16:56:23 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2025-01-22 16:56:23 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@cd90ed8
+2025-01-22 16:56:23 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@6d09cc2d
+2025-01-22 16:56:23 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-01-22 16:56:23 [http-nio-8084-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2025-01-22 16:56:23 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - PUT "/api/bookings/27/cancel", parameters={}
+2025-01-22 16:56:23 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to tekarchFlights.TafBookingService.Controller.BookingController#cancelBooking(Long)
+2025-01-22 16:56:23 [http-nio-8084-exec-2] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:8081/api/bookings/27
+2025-01-22 16:56:23 [http-nio-8084-exec-2] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-22 16:56:23 [http-nio-8084-exec-2] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-22 16:56:23 [http-nio-8084-exec-2] DEBUG org.springframework.web.client.RestTemplate - Reading to [tekarchFlights.TafBookingService.DTO.BookingResponse]
+2025-01-22 16:56:23 [http-nio-8084-exec-2] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:8081/api/flights/10
+2025-01-22 16:56:23 [http-nio-8084-exec-2] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-22 16:56:23 [http-nio-8084-exec-2] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-22 16:56:23 [http-nio-8084-exec-2] DEBUG org.springframework.web.client.RestTemplate - Reading to [tekarchFlights.TafBookingService.DTO.FlightResponse]
+2025-01-22 16:56:23 [http-nio-8084-exec-2] DEBUG org.springframework.web.client.RestTemplate - HTTP PUT http://localhost:8081/api/flights/10/update
+2025-01-22 16:56:23 [http-nio-8084-exec-2] DEBUG org.springframework.web.client.RestTemplate - Writing [FlightResponse(id=10, flightNumber=JJ456, departure=London, arrival=Paris, departureTime=2025-01-21T12:00, arrivalTime=2025-01-21T20:00, price=5800.0, availableSeats=160, createdAt=2025-01-19T23:38:18.888273, updatedAt=2025-01-22T16:36:51.550718)] with org.springframework.http.converter.json.MappingJackson2HttpMessageConverter
+2025-01-22 16:56:23 [http-nio-8084-exec-2] DEBUG org.springframework.web.client.RestTemplate - Response 500 INTERNAL_SERVER_ERROR
+2025-01-22 16:56:23 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json, application/yaml]
+2025-01-22 16:56:23 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Writing ["Error during PUT request to update flight: 500  on PUT request for "http://localhost:8081/api/flight (truncated)..."]
+2025-01-22 16:56:23 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 400 BAD_REQUEST
+2025-01-22 17:23:57 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-01-22 17:23:57 [restartedMain] INFO  tekarchFlights.TafBookingService.TafBookingServiceApplication - Starting TafBookingServiceApplication using Java 17.0.9 with PID 28600 (C:\Users\vsaji\IdeaProjects\TafBookingService\build\classes\java\main started by vsaji in C:\Users\vsaji\IdeaProjects\TafBookingService)
+2025-01-22 17:23:57 [restartedMain] INFO  tekarchFlights.TafBookingService.TafBookingServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-22 17:23:57 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-22 17:23:57 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-22 17:23:58 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8084 (http)
+2025-01-22 17:23:58 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8084"]
+2025-01-22 17:23:58 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-22 17:23:58 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-22 17:23:59 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-22 17:23:59 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1768 ms
+2025-01-22 17:23:59 [restartedMain] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 12 mappings in 'requestMappingHandlerMapping'
+2025-01-22 17:23:59 [restartedMain] DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2025-01-22 17:23:59 [restartedMain] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-01-22 17:23:59 [restartedMain] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-01-22 17:23:59 [restartedMain] WARN  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-01-22 17:23:59 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8084"]
+2025-01-22 17:23:59 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8084 (http) with context path '/'
+2025-01-22 17:23:59 [restartedMain] INFO  tekarchFlights.TafBookingService.TafBookingServiceApplication - Started TafBookingServiceApplication in 3.209 seconds (process running for 4.042)
+2025-01-22 17:25:52 [http-nio-8084-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-22 17:25:52 [http-nio-8084-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-22 17:25:52 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2025-01-22 17:25:52 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2025-01-22 17:25:52 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2025-01-22 17:25:52 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4c028557
+2025-01-22 17:25:52 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@604cb49f
+2025-01-22 17:25:52 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-01-22 17:25:52 [http-nio-8084-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2025-01-22 17:25:52 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/api/bookings/flight/1", parameters={}
+2025-01-22 17:25:52 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to tekarchFlights.TafBookingService.Controller.BookingController#getBookingsByFlightId(Long)
+2025-01-22 17:25:52 [http-nio-8084-exec-2] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:8081/api/bookings/flight/1
+2025-01-22 17:25:52 [http-nio-8084-exec-2] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-22 17:25:52 [http-nio-8084-exec-2] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-22 17:25:52 [http-nio-8084-exec-2] DEBUG org.springframework.web.client.RestTemplate - Reading to [java.util.List<tekarchFlights.TafBookingService.DTO.BookingResponse>]
+2025-01-22 17:25:53 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2025-01-22 17:25:53 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Writing [[BookingResponse(id=null, user=UserResponse(id=1, username=johndoe, email=johndoe@example.com, phone (truncated)...]
+2025-01-22 17:25:53 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2025-01-22 17:26:03 [http-nio-8084-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/api/bookings/flight/27", parameters={}
+2025-01-22 17:26:03 [http-nio-8084-exec-3] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to tekarchFlights.TafBookingService.Controller.BookingController#getBookingsByFlightId(Long)
+2025-01-22 17:26:03 [http-nio-8084-exec-3] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:8081/api/bookings/flight/27
+2025-01-22 17:26:03 [http-nio-8084-exec-3] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-22 17:26:03 [http-nio-8084-exec-3] DEBUG org.springframework.web.client.RestTemplate - Response 404 NOT_FOUND
+2025-01-22 17:26:03 [http-nio-8084-exec-3] ERROR tekarchFlights.TafBookingService.Service.BookingService - Error fetching bookings for flightId 27: 404  on GET request for "http://localhost:8081/api/bookings/flight/27": [no body]
+org.springframework.web.client.HttpClientErrorException$NotFound: 404  on GET request for "http://localhost:8081/api/bookings/flight/27": [no body]
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:112) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:225) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:163) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:953) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:902) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:801) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:712) ~[spring-web-6.2.1.jar:6.2.1]
+	at tekarchFlights.TafBookingService.Service.BookingService.getBookingsByFlightId(BookingService.java:98) [main/:?]
+	at tekarchFlights.TafBookingService.Controller.BookingController.getBookingsByFlightId(BookingController.java:60) [main/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257) [spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190) [spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) [spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) [spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) [spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) [spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088) [spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) [spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) [spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) [spring-webmvc-6.2.1.jar:6.2.1]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) [tomcat-embed-core-10.1.34.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) [spring-webmvc-6.2.1.jar:6.2.1]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) [tomcat-embed-core-10.1.34.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) [tomcat-embed-websocket-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) [spring-web-6.2.1.jar:6.2.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) [spring-web-6.2.1.jar:6.2.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) [spring-web-6.2.1.jar:6.2.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+2025-01-22 17:26:03 [http-nio-8084-exec-3] ERROR tekarchFlights.TafBookingService.Controller.BookingController - Error retrieving bookings for flightId 27: Failed to fetch bookings
+java.lang.RuntimeException: Failed to fetch bookings
+	at tekarchFlights.TafBookingService.Service.BookingService.getBookingsByFlightId(BookingService.java:107) ~[main/:?]
+	at tekarchFlights.TafBookingService.Controller.BookingController.getBookingsByFlightId(BookingController.java:60) [main/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257) [spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190) [spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) [spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) [spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) [spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) [spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088) [spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) [spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) [spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) [spring-webmvc-6.2.1.jar:6.2.1]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) [tomcat-embed-core-10.1.34.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) [spring-webmvc-6.2.1.jar:6.2.1]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) [tomcat-embed-core-10.1.34.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) [tomcat-embed-websocket-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) [spring-web-6.2.1.jar:6.2.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) [spring-web-6.2.1.jar:6.2.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) [spring-web-6.2.1.jar:6.2.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+Caused by: org.springframework.web.client.HttpClientErrorException$NotFound: 404  on GET request for "http://localhost:8081/api/bookings/flight/27": [no body]
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:112) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:225) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:163) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:953) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:902) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:801) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:712) ~[spring-web-6.2.1.jar:6.2.1]
+	at tekarchFlights.TafBookingService.Service.BookingService.getBookingsByFlightId(BookingService.java:98) ~[main/:?]
+	... 51 more
+2025-01-22 17:26:03 [http-nio-8084-exec-3] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2025-01-22 17:26:03 [http-nio-8084-exec-3] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Nothing to write: null body
+2025-01-22 17:26:03 [http-nio-8084-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 500 INTERNAL_SERVER_ERROR
+2025-01-22 17:26:10 [http-nio-8084-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/api/bookings/flight/10", parameters={}
+2025-01-22 17:26:10 [http-nio-8084-exec-5] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to tekarchFlights.TafBookingService.Controller.BookingController#getBookingsByFlightId(Long)
+2025-01-22 17:26:10 [http-nio-8084-exec-5] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:8081/api/bookings/flight/10
+2025-01-22 17:26:10 [http-nio-8084-exec-5] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-22 17:26:10 [http-nio-8084-exec-5] DEBUG org.springframework.web.client.RestTemplate - Response 404 NOT_FOUND
+2025-01-22 17:26:10 [http-nio-8084-exec-5] ERROR tekarchFlights.TafBookingService.Service.BookingService - Error fetching bookings for flightId 10: 404  on GET request for "http://localhost:8081/api/bookings/flight/10": [no body]
+org.springframework.web.client.HttpClientErrorException$NotFound: 404  on GET request for "http://localhost:8081/api/bookings/flight/10": [no body]
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:112) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:225) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:163) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:953) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:902) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:801) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:712) ~[spring-web-6.2.1.jar:6.2.1]
+	at tekarchFlights.TafBookingService.Service.BookingService.getBookingsByFlightId(BookingService.java:98) [main/:?]
+	at tekarchFlights.TafBookingService.Controller.BookingController.getBookingsByFlightId(BookingController.java:60) [main/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257) [spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190) [spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) [spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) [spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) [spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) [spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088) [spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) [spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) [spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) [spring-webmvc-6.2.1.jar:6.2.1]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) [tomcat-embed-core-10.1.34.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) [spring-webmvc-6.2.1.jar:6.2.1]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) [tomcat-embed-core-10.1.34.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) [tomcat-embed-websocket-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) [spring-web-6.2.1.jar:6.2.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) [spring-web-6.2.1.jar:6.2.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) [spring-web-6.2.1.jar:6.2.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+2025-01-22 17:26:10 [http-nio-8084-exec-5] ERROR tekarchFlights.TafBookingService.Controller.BookingController - Error retrieving bookings for flightId 10: Failed to fetch bookings
+java.lang.RuntimeException: Failed to fetch bookings
+	at tekarchFlights.TafBookingService.Service.BookingService.getBookingsByFlightId(BookingService.java:107) ~[main/:?]
+	at tekarchFlights.TafBookingService.Controller.BookingController.getBookingsByFlightId(BookingController.java:60) [main/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257) [spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190) [spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) [spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) [spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) [spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) [spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088) [spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) [spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) [spring-webmvc-6.2.1.jar:6.2.1]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) [spring-webmvc-6.2.1.jar:6.2.1]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) [tomcat-embed-core-10.1.34.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) [spring-webmvc-6.2.1.jar:6.2.1]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) [tomcat-embed-core-10.1.34.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) [tomcat-embed-websocket-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) [spring-web-6.2.1.jar:6.2.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) [spring-web-6.2.1.jar:6.2.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) [spring-web-6.2.1.jar:6.2.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) [tomcat-embed-core-10.1.34.jar:10.1.34]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+Caused by: org.springframework.web.client.HttpClientErrorException$NotFound: 404  on GET request for "http://localhost:8081/api/bookings/flight/10": [no body]
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:112) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:225) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:163) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:953) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:902) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:801) ~[spring-web-6.2.1.jar:6.2.1]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:712) ~[spring-web-6.2.1.jar:6.2.1]
+	at tekarchFlights.TafBookingService.Service.BookingService.getBookingsByFlightId(BookingService.java:98) ~[main/:?]
+	... 51 more
+2025-01-22 17:26:10 [http-nio-8084-exec-5] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2025-01-22 17:26:10 [http-nio-8084-exec-5] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Nothing to write: null body
+2025-01-22 17:26:10 [http-nio-8084-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 500 INTERNAL_SERVER_ERROR
+2025-01-22 17:26:16 [http-nio-8084-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/api/bookings/flight/1", parameters={}
+2025-01-22 17:26:16 [http-nio-8084-exec-8] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to tekarchFlights.TafBookingService.Controller.BookingController#getBookingsByFlightId(Long)
+2025-01-22 17:26:16 [http-nio-8084-exec-8] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:8081/api/bookings/flight/1
+2025-01-22 17:26:16 [http-nio-8084-exec-8] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-22 17:26:16 [http-nio-8084-exec-8] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-22 17:26:16 [http-nio-8084-exec-8] DEBUG org.springframework.web.client.RestTemplate - Reading to [java.util.List<tekarchFlights.TafBookingService.DTO.BookingResponse>]
+2025-01-22 17:26:16 [http-nio-8084-exec-8] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2025-01-22 17:26:16 [http-nio-8084-exec-8] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Writing [[BookingResponse(id=null, user=UserResponse(id=1, username=johndoe, email=johndoe@example.com, phone (truncated)...]
+2025-01-22 17:26:16 [http-nio-8084-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2025-01-22 17:26:42 [http-nio-8084-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/api/bookings", parameters={}
+2025-01-22 17:26:42 [http-nio-8084-exec-6] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to tekarchFlights.TafBookingService.Controller.BookingController#getAllFlights()
+2025-01-22 17:26:42 [http-nio-8084-exec-6] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:8081/api/bookings
+2025-01-22 17:26:42 [http-nio-8084-exec-6] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-22 17:26:43 [http-nio-8084-exec-6] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-22 17:26:43 [http-nio-8084-exec-6] DEBUG org.springframework.web.client.RestTemplate - Reading to [tekarchFlights.TafBookingService.DTO.BookingResponse[]]
+2025-01-22 17:26:43 [http-nio-8084-exec-6] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2025-01-22 17:26:43 [http-nio-8084-exec-6] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Writing [[BookingResponse(id=1, user=UserResponse(id=1, username=johndoe, email=johndoe@example.com, phone=12 (truncated)...]
+2025-01-22 17:26:43 [http-nio-8084-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2025-01-22 17:26:56 [http-nio-8084-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - PUT "/api/bookings/27/cancel", parameters={}
+2025-01-22 17:26:56 [http-nio-8084-exec-9] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to tekarchFlights.TafBookingService.Controller.BookingController#cancelBooking(Long)
+2025-01-22 17:26:56 [http-nio-8084-exec-9] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:8081/api/bookings/27
+2025-01-22 17:26:56 [http-nio-8084-exec-9] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-22 17:26:56 [http-nio-8084-exec-9] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-22 17:26:56 [http-nio-8084-exec-9] DEBUG org.springframework.web.client.RestTemplate - Reading to [tekarchFlights.TafBookingService.DTO.BookingResponse]
+2025-01-22 17:26:56 [http-nio-8084-exec-9] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:8081/api/flights/10
+2025-01-22 17:26:56 [http-nio-8084-exec-9] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-22 17:26:56 [http-nio-8084-exec-9] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-22 17:26:56 [http-nio-8084-exec-9] DEBUG org.springframework.web.client.RestTemplate - Reading to [tekarchFlights.TafBookingService.DTO.FlightResponse]
+2025-01-22 17:26:56 [http-nio-8084-exec-9] DEBUG org.springframework.web.client.RestTemplate - HTTP PUT http://localhost:8081/api/flights/10/update
+2025-01-22 17:26:56 [http-nio-8084-exec-9] DEBUG org.springframework.web.client.RestTemplate - Writing [FlightResponse(id=10, flightNumber=JJ456, departure=London, arrival=Paris, departureTime=2025-01-21T12:00, arrivalTime=2025-01-21T20:00, price=5800.0, availableSeats=160, createdAt=2025-01-19T23:38:18.888273, updatedAt=2025-01-22T16:36:51.550718)] with org.springframework.http.converter.json.MappingJackson2HttpMessageConverter
+2025-01-22 17:26:56 [http-nio-8084-exec-9] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-22 17:26:56 [http-nio-8084-exec-9] DEBUG org.springframework.web.client.RestTemplate - HTTP PUT http://localhost:8081/api/bookings/27/update
+2025-01-22 17:26:56 [http-nio-8084-exec-9] DEBUG org.springframework.web.client.RestTemplate - Writing [BookingUpdateRequest(id=27, status=Cancelled)] with org.springframework.http.converter.json.MappingJackson2HttpMessageConverter
+2025-01-22 17:26:56 [http-nio-8084-exec-9] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-22 17:26:56 [http-nio-8084-exec-9] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json, application/yaml]
+2025-01-22 17:26:56 [http-nio-8084-exec-9] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Writing ["Booking with ID 27 has been cancelled successfully and available seats updated."]
+2025-01-22 17:26:56 [http-nio-8084-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2025-01-22 17:27:09 [http-nio-8084-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/api/bookings", parameters={}
+2025-01-22 17:27:09 [http-nio-8084-exec-10] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to tekarchFlights.TafBookingService.Controller.BookingController#getAllFlights()
+2025-01-22 17:27:09 [http-nio-8084-exec-10] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:8081/api/bookings
+2025-01-22 17:27:09 [http-nio-8084-exec-10] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-22 17:27:09 [http-nio-8084-exec-10] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-22 17:27:09 [http-nio-8084-exec-10] DEBUG org.springframework.web.client.RestTemplate - Reading to [tekarchFlights.TafBookingService.DTO.BookingResponse[]]
+2025-01-22 17:27:09 [http-nio-8084-exec-10] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2025-01-22 17:27:09 [http-nio-8084-exec-10] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Writing [[BookingResponse(id=1, user=UserResponse(id=1, username=johndoe, email=johndoe@example.com, phone=12 (truncated)...]
+2025-01-22 17:27:09 [http-nio-8084-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2025-01-23 15:20:54 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-01-23 15:20:54 [restartedMain] INFO  tekarchFlights.TafBookingService.TafBookingServiceApplication - Starting TafBookingServiceApplication using Java 17.0.9 with PID 22964 (C:\Users\vsaji\IdeaProjects\TafBookingService\build\classes\java\main started by vsaji in C:\Users\vsaji\IdeaProjects\TafBookingService)
+2025-01-23 15:20:54 [restartedMain] INFO  tekarchFlights.TafBookingService.TafBookingServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-23 15:20:54 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-23 15:20:54 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-23 15:20:56 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8084 (http)
+2025-01-23 15:20:56 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8084"]
+2025-01-23 15:20:56 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-23 15:20:56 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-23 15:20:56 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-23 15:20:56 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1754 ms
+2025-01-23 15:20:57 [restartedMain] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 12 mappings in 'requestMappingHandlerMapping'
+2025-01-23 15:20:57 [restartedMain] DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2025-01-23 15:20:57 [restartedMain] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-01-23 15:20:57 [restartedMain] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-01-23 15:20:57 [restartedMain] WARN  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-01-23 15:20:57 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8084"]
+2025-01-23 15:20:57 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8084 (http) with context path '/'
+2025-01-23 15:20:57 [restartedMain] INFO  tekarchFlights.TafBookingService.TafBookingServiceApplication - Started TafBookingServiceApplication in 3.207 seconds (process running for 4.164)
+2025-01-23 15:21:07 [http-nio-8084-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-23 15:21:07 [http-nio-8084-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-23 15:21:07 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2025-01-23 15:21:07 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2025-01-23 15:21:07 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2025-01-23 15:21:07 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@2eb60a7c
+2025-01-23 15:21:07 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@2215a868
+2025-01-23 15:21:07 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-01-23 15:21:07 [http-nio-8084-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2025-01-23 15:21:07 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/api/bookings", parameters={}
+2025-01-23 15:21:07 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to tekarchFlights.TafBookingService.Controller.BookingController#getAllFlights()
+2025-01-23 15:21:07 [http-nio-8084-exec-2] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:8081/api/bookings
+2025-01-23 15:21:07 [http-nio-8084-exec-2] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-23 15:21:08 [http-nio-8084-exec-2] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-23 15:21:08 [http-nio-8084-exec-2] DEBUG org.springframework.web.client.RestTemplate - Reading to [tekarchFlights.TafBookingService.DTO.BookingResponse[]]
+2025-01-23 15:21:08 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2025-01-23 15:21:08 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Writing [[BookingResponse(id=1, user=UserResponse(id=1, username=johndoe, email=johndoe@example.com, phone=12 (truncated)...]
+2025-01-23 15:21:08 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2025-01-23 15:21:40 [http-nio-8084-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - PUT "/api/bookings/27/cancel", parameters={}
+2025-01-23 15:21:40 [http-nio-8084-exec-4] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to tekarchFlights.TafBookingService.Controller.BookingController#cancelBooking(Long)
+2025-01-23 15:21:40 [http-nio-8084-exec-4] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:8081/api/bookings/27
+2025-01-23 15:21:40 [http-nio-8084-exec-4] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-23 15:21:40 [http-nio-8084-exec-4] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-23 15:21:40 [http-nio-8084-exec-4] DEBUG org.springframework.web.client.RestTemplate - Reading to [tekarchFlights.TafBookingService.DTO.BookingResponse]
+2025-01-23 15:21:40 [http-nio-8084-exec-4] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:8081/api/flights/10
+2025-01-23 15:21:40 [http-nio-8084-exec-4] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-23 15:21:40 [http-nio-8084-exec-4] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-23 15:21:40 [http-nio-8084-exec-4] DEBUG org.springframework.web.client.RestTemplate - Reading to [tekarchFlights.TafBookingService.DTO.FlightResponse]
+2025-01-23 15:21:40 [http-nio-8084-exec-4] DEBUG org.springframework.web.client.RestTemplate - HTTP PUT http://localhost:8081/api/flights/10/update
+2025-01-23 15:21:40 [http-nio-8084-exec-4] DEBUG org.springframework.web.client.RestTemplate - Writing [FlightResponse(id=10, flightNumber=JJ456, departure=London, arrival=Paris, departureTime=2025-01-21T12:00, arrivalTime=2025-01-21T20:00, price=5800.0, availableSeats=161, createdAt=2025-01-19T23:38:18.888273, updatedAt=2025-01-22T17:26:56.857591)] with org.springframework.http.converter.json.MappingJackson2HttpMessageConverter
+2025-01-23 15:21:40 [http-nio-8084-exec-4] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-23 15:21:40 [http-nio-8084-exec-4] DEBUG org.springframework.web.client.RestTemplate - HTTP PUT http://localhost:8081/api/bookings/27/update
+2025-01-23 15:21:40 [http-nio-8084-exec-4] DEBUG org.springframework.web.client.RestTemplate - Writing [BookingUpdateRequest(id=27, status=Cancelled)] with org.springframework.http.converter.json.MappingJackson2HttpMessageConverter
+2025-01-23 15:21:40 [http-nio-8084-exec-4] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-23 15:21:40 [http-nio-8084-exec-4] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json, application/yaml]
+2025-01-23 15:21:40 [http-nio-8084-exec-4] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Writing ["Booking with ID 27 has been cancelled successfully and available seats updated."]
+2025-01-23 15:21:40 [http-nio-8084-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2025-01-23 15:22:12 [http-nio-8084-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/api/bookings", parameters={}
+2025-01-23 15:22:12 [http-nio-8084-exec-5] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to tekarchFlights.TafBookingService.Controller.BookingController#getAllFlights()
+2025-01-23 15:22:12 [http-nio-8084-exec-5] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:8081/api/bookings
+2025-01-23 15:22:12 [http-nio-8084-exec-5] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-23 15:22:13 [http-nio-8084-exec-5] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-23 15:22:13 [http-nio-8084-exec-5] DEBUG org.springframework.web.client.RestTemplate - Reading to [tekarchFlights.TafBookingService.DTO.BookingResponse[]]
+2025-01-23 15:22:13 [http-nio-8084-exec-5] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2025-01-23 15:22:13 [http-nio-8084-exec-5] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Writing [[BookingResponse(id=1, user=UserResponse(id=1, username=johndoe, email=johndoe@example.com, phone=12 (truncated)...]
+2025-01-23 15:22:13 [http-nio-8084-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2025-01-23 15:29:27 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-01-23 15:29:27 [restartedMain] INFO  tekarchFlights.TafBookingService.TafBookingServiceApplication - Starting TafBookingServiceApplication using Java 17.0.9 with PID 25124 (C:\Users\vsaji\IdeaProjects\TafBookingService\build\classes\java\main started by vsaji in C:\Users\vsaji\IdeaProjects\TafBookingService)
+2025-01-23 15:29:27 [restartedMain] INFO  tekarchFlights.TafBookingService.TafBookingServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-23 15:29:27 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-23 15:29:27 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-23 15:29:29 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8084 (http)
+2025-01-23 15:29:29 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8084"]
+2025-01-23 15:29:29 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-23 15:29:29 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-23 15:29:29 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-23 15:29:29 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1645 ms
+2025-01-23 15:29:29 [restartedMain] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 12 mappings in 'requestMappingHandlerMapping'
+2025-01-23 15:29:29 [restartedMain] DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2025-01-23 15:29:29 [restartedMain] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-01-23 15:29:30 [restartedMain] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-01-23 15:29:30 [restartedMain] WARN  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-01-23 15:29:30 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8084"]
+2025-01-23 15:29:30 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8084 (http) with context path '/'
+2025-01-23 15:29:30 [restartedMain] INFO  tekarchFlights.TafBookingService.TafBookingServiceApplication - Started TafBookingServiceApplication in 2.982 seconds (process running for 3.812)
+2025-01-23 15:29:43 [http-nio-8084-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-23 15:29:43 [http-nio-8084-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-23 15:29:43 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2025-01-23 15:29:43 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2025-01-23 15:29:43 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2025-01-23 15:29:43 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@caed6b
+2025-01-23 15:29:43 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@29e5fab6
+2025-01-23 15:29:43 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-01-23 15:29:43 [http-nio-8084-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2025-01-23 15:29:43 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - PUT "/api/bookings/27/cancel", parameters={}
+2025-01-23 15:29:43 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to tekarchFlights.TafBookingService.Controller.BookingController#cancelBooking(Long)
+2025-01-23 15:29:43 [http-nio-8084-exec-1] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:8081/api/bookings/27
+2025-01-23 15:29:44 [http-nio-8084-exec-1] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-23 15:29:44 [http-nio-8084-exec-1] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-23 15:29:44 [http-nio-8084-exec-1] DEBUG org.springframework.web.client.RestTemplate - Reading to [tekarchFlights.TafBookingService.DTO.BookingResponse]
+2025-01-23 15:29:44 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json, application/yaml]
+2025-01-23 15:29:44 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Writing ["Booking is already cancelled for bookingId :27"]
+2025-01-23 15:29:44 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2025-01-23 15:30:41 [http-nio-8084-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/api/bookings", parameters={}
+2025-01-23 15:30:41 [http-nio-8084-exec-3] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to tekarchFlights.TafBookingService.Controller.BookingController#getAllFlights()
+2025-01-23 15:30:41 [http-nio-8084-exec-3] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:8081/api/bookings
+2025-01-23 15:30:41 [http-nio-8084-exec-3] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-23 15:30:41 [http-nio-8084-exec-3] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-23 15:30:41 [http-nio-8084-exec-3] DEBUG org.springframework.web.client.RestTemplate - Reading to [tekarchFlights.TafBookingService.DTO.BookingResponse[]]
+2025-01-23 15:30:41 [http-nio-8084-exec-3] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2025-01-23 15:30:41 [http-nio-8084-exec-3] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Writing [[BookingResponse(id=1, user=UserResponse(id=1, username=johndoe, email=johndoe@example.com, phone=12 (truncated)...]
+2025-01-23 15:30:41 [http-nio-8084-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2025-01-23 15:30:51 [http-nio-8084-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - PUT "/api/bookings/27/cancel", parameters={}
+2025-01-23 15:30:51 [http-nio-8084-exec-4] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to tekarchFlights.TafBookingService.Controller.BookingController#cancelBooking(Long)
+2025-01-23 15:30:51 [http-nio-8084-exec-4] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:8081/api/bookings/27
+2025-01-23 15:30:51 [http-nio-8084-exec-4] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-23 15:30:51 [http-nio-8084-exec-4] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-23 15:30:51 [http-nio-8084-exec-4] DEBUG org.springframework.web.client.RestTemplate - Reading to [tekarchFlights.TafBookingService.DTO.BookingResponse]
+2025-01-23 15:30:51 [http-nio-8084-exec-4] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json, application/yaml]
+2025-01-23 15:30:51 [http-nio-8084-exec-4] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Writing ["Booking is already cancelled for bookingId :27"]
+2025-01-23 15:30:51 [http-nio-8084-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2025-01-23 15:31:01 [http-nio-8084-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/api/bookings", parameters={}
+2025-01-23 15:31:01 [http-nio-8084-exec-5] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to tekarchFlights.TafBookingService.Controller.BookingController#getAllFlights()
+2025-01-23 15:31:01 [http-nio-8084-exec-5] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:8081/api/bookings
+2025-01-23 15:31:01 [http-nio-8084-exec-5] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-23 15:31:01 [http-nio-8084-exec-5] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-23 15:31:01 [http-nio-8084-exec-5] DEBUG org.springframework.web.client.RestTemplate - Reading to [tekarchFlights.TafBookingService.DTO.BookingResponse[]]
+2025-01-23 15:31:01 [http-nio-8084-exec-5] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2025-01-23 15:31:01 [http-nio-8084-exec-5] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Writing [[BookingResponse(id=1, user=UserResponse(id=1, username=johndoe, email=johndoe@example.com, phone=12 (truncated)...]
+2025-01-23 15:31:01 [http-nio-8084-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2025-01-23 15:32:09 [http-nio-8084-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/api/bookings", parameters={}
+2025-01-23 15:32:09 [http-nio-8084-exec-8] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to tekarchFlights.TafBookingService.Controller.BookingController#getAllFlights()
+2025-01-23 15:32:09 [http-nio-8084-exec-8] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:8081/api/bookings
+2025-01-23 15:32:09 [http-nio-8084-exec-8] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-23 15:32:09 [http-nio-8084-exec-8] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-23 15:32:09 [http-nio-8084-exec-8] DEBUG org.springframework.web.client.RestTemplate - Reading to [tekarchFlights.TafBookingService.DTO.BookingResponse[]]
+2025-01-23 15:32:09 [http-nio-8084-exec-8] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2025-01-23 15:32:09 [http-nio-8084-exec-8] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Writing [[BookingResponse(id=1, user=UserResponse(id=1, username=johndoe, email=johndoe@example.com, phone=12 (truncated)...]
+2025-01-23 15:32:09 [http-nio-8084-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2025-01-23 15:33:08 [http-nio-8084-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/api/bookings", parameters={}
+2025-01-23 15:33:08 [http-nio-8084-exec-9] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to tekarchFlights.TafBookingService.Controller.BookingController#getAllFlights()
+2025-01-23 15:33:08 [http-nio-8084-exec-9] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:8081/api/bookings
+2025-01-23 15:33:08 [http-nio-8084-exec-9] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-23 15:33:08 [http-nio-8084-exec-9] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-23 15:33:08 [http-nio-8084-exec-9] DEBUG org.springframework.web.client.RestTemplate - Reading to [tekarchFlights.TafBookingService.DTO.BookingResponse[]]
+2025-01-23 15:33:08 [http-nio-8084-exec-9] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2025-01-23 15:33:08 [http-nio-8084-exec-9] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Writing [[BookingResponse(id=1, user=UserResponse(id=1, username=johndoe, email=johndoe@example.com, phone=12 (truncated)...]
+2025-01-23 15:33:08 [http-nio-8084-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2025-01-23 15:33:31 [http-nio-8084-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/api/bookings/27", parameters={}
+2025-01-23 15:33:31 [http-nio-8084-exec-10] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to tekarchFlights.TafBookingService.Controller.BookingController#getBookingById(Long)
+2025-01-23 15:33:31 [http-nio-8084-exec-10] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:8081/api/bookings/27
+2025-01-23 15:33:31 [http-nio-8084-exec-10] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-23 15:33:31 [http-nio-8084-exec-10] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-23 15:33:31 [http-nio-8084-exec-10] DEBUG org.springframework.web.client.RestTemplate - Reading to [tekarchFlights.TafBookingService.DTO.BookingResponse]
+2025-01-23 15:33:31 [http-nio-8084-exec-10] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2025-01-23 15:33:31 [http-nio-8084-exec-10] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Writing [BookingResponse(id=27, user=UserResponse(id=7, username=uuuxxxxxohndoe, email=uuuxxxxhndoe@example.c (truncated)...]
+2025-01-23 15:33:31 [http-nio-8084-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2025-01-23 15:34:56 [http-nio-8084-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/api/bookings/27", parameters={}
+2025-01-23 15:34:56 [http-nio-8084-exec-3] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to tekarchFlights.TafBookingService.Controller.BookingController#getBookingById(Long)
+2025-01-23 15:34:56 [http-nio-8084-exec-3] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:8081/api/bookings/27
+2025-01-23 15:34:56 [http-nio-8084-exec-3] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-23 15:34:56 [http-nio-8084-exec-3] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-23 15:34:56 [http-nio-8084-exec-3] DEBUG org.springframework.web.client.RestTemplate - Reading to [tekarchFlights.TafBookingService.DTO.BookingResponse]
+2025-01-23 15:34:56 [http-nio-8084-exec-3] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2025-01-23 15:34:56 [http-nio-8084-exec-3] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Writing [BookingResponse(id=27, user=UserResponse(id=7, username=uuuxxxxxohndoe, email=uuuxxxxhndoe@example.c (truncated)...]
+2025-01-23 15:34:56 [http-nio-8084-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2025-01-23 15:37:59 [http-nio-8084-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/api/bookings", parameters={}
+2025-01-23 15:37:59 [http-nio-8084-exec-6] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to tekarchFlights.TafBookingService.Controller.BookingController#getAllFlights()
+2025-01-23 15:37:59 [http-nio-8084-exec-6] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:8081/api/bookings
+2025-01-23 15:37:59 [http-nio-8084-exec-6] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-23 15:37:59 [http-nio-8084-exec-6] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-23 15:37:59 [http-nio-8084-exec-6] DEBUG org.springframework.web.client.RestTemplate - Reading to [tekarchFlights.TafBookingService.DTO.BookingResponse[]]
+2025-01-23 15:37:59 [http-nio-8084-exec-6] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2025-01-23 15:37:59 [http-nio-8084-exec-6] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Writing [[BookingResponse(id=1, user=UserResponse(id=1, username=johndoe, email=johndoe@example.com, phone=12 (truncated)...]
+2025-01-23 15:37:59 [http-nio-8084-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2025-01-23 15:39:03 [http-nio-8084-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/api/bookings", parameters={}
+2025-01-23 15:39:03 [http-nio-8084-exec-9] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to tekarchFlights.TafBookingService.Controller.BookingController#createBooking(BookingRequest)
+2025-01-23 15:39:03 [http-nio-8084-exec-9] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [BookingRequest(user=7, flight=9, status=Booked)]
+2025-01-23 15:39:03 [http-nio-8084-exec-9] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:8081/api/flights/9
+2025-01-23 15:39:03 [http-nio-8084-exec-9] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-23 15:39:03 [http-nio-8084-exec-9] DEBUG org.springframework.web.client.RestTemplate - Response 500 INTERNAL_SERVER_ERROR
+2025-01-23 15:39:03 [http-nio-8084-exec-9] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Using @ExceptionHandler tekarchFlights.TafBookingService.Controller.GlobalExceptionHandler#handleException(Exception, WebRequest)
+2025-01-23 15:39:03 [http-nio-8084-exec-9] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2025-01-23 15:39:03 [http-nio-8084-exec-9] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Writing [{details=uri=/api/bookings, error=Internal Server Error, message=500  on GET request for "http://loc (truncated)...]
+2025-01-23 15:39:03 [http-nio-8084-exec-9] WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.client.HttpServerErrorException$InternalServerError: 500  on GET request for "http://localhost:8081/api/flights/9": "Flight not found with id: 9"]
+2025-01-23 15:39:03 [http-nio-8084-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 500 INTERNAL_SERVER_ERROR
+2025-01-23 15:39:14 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/api/bookings", parameters={}
+2025-01-23 15:39:14 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to tekarchFlights.TafBookingService.Controller.BookingController#createBooking(BookingRequest)
+2025-01-23 15:39:14 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [BookingRequest(user=7, flight=7, status=Booked)]
+2025-01-23 15:39:14 [http-nio-8084-exec-2] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:8081/api/flights/7
+2025-01-23 15:39:14 [http-nio-8084-exec-2] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-23 15:39:14 [http-nio-8084-exec-2] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-23 15:39:14 [http-nio-8084-exec-2] DEBUG org.springframework.web.client.RestTemplate - Reading to [tekarchFlights.TafBookingService.DTO.FlightResponse]
+2025-01-23 15:39:14 [http-nio-8084-exec-2] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:8081/api/users/7
+2025-01-23 15:39:14 [http-nio-8084-exec-2] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-23 15:39:14 [http-nio-8084-exec-2] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-23 15:39:14 [http-nio-8084-exec-2] DEBUG org.springframework.web.client.RestTemplate - Reading to [tekarchFlights.TafBookingService.DTO.UserResponse]
+2025-01-23 15:39:14 [http-nio-8084-exec-2] DEBUG org.springframework.web.client.RestTemplate - HTTP PUT http://localhost:8081/api/flights/7
+2025-01-23 15:39:14 [http-nio-8084-exec-2] DEBUG org.springframework.web.client.RestTemplate - Writing [FlightResponse(id=7, flightNumber=DAAB123, departure=California, arrival=Raleigh, departureTime=2025-01-18T10:00, arrivalTime=2025-01-18T14:00, price=1020.0, availableSeats=99, createdAt=2025-01-19T16:30:25.096987, updatedAt=2025-01-19T16:30:25.096987)] with org.springframework.http.converter.json.MappingJackson2HttpMessageConverter
+2025-01-23 15:39:14 [http-nio-8084-exec-2] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-23 15:39:14 [http-nio-8084-exec-2] DEBUG org.springframework.web.client.RestTemplate - HTTP POST http://localhost:8081/api/bookings
+2025-01-23 15:39:14 [http-nio-8084-exec-2] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-23 15:39:14 [http-nio-8084-exec-2] DEBUG org.springframework.web.client.RestTemplate - Writing [BookingRequest(user=7, flight=7, status=Booked)] with org.springframework.http.converter.json.MappingJackson2HttpMessageConverter
+2025-01-23 15:39:14 [http-nio-8084-exec-2] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-23 15:39:14 [http-nio-8084-exec-2] DEBUG org.springframework.web.client.RestTemplate - Reading to [tekarchFlights.TafBookingService.DTO.BookingResponse]
+2025-01-23 15:39:14 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2025-01-23 15:39:14 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Writing [BookingResponse(id=28, user=UserResponse(id=7, username=uuuxxxxxohndoe, email=uuuxxxxhndoe@example.c (truncated)...]
+2025-01-23 15:39:14 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
