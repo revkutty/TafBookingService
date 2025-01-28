@@ -15,7 +15,7 @@ import tekarchFlights.TafBookingService.Service.BookingService;
 import java.util.List;
 import java.util.Map;
 
-
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/api/bookings")
 public class BookingController {

@@ -1117,3 +1117,206 @@ Caused by: org.springframework.web.client.HttpClientErrorException$NotFound: 404
 2025-01-23 15:39:14 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
 2025-01-23 15:39:14 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Writing [BookingResponse(id=28, user=UserResponse(id=7, username=uuuxxxxxohndoe, email=uuuxxxxhndoe@example.c (truncated)...]
 2025-01-23 15:39:14 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2025-01-26 15:03:34 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-01-26 15:03:34 [restartedMain] INFO  tekarchFlights.TafBookingService.TafBookingServiceApplication - Starting TafBookingServiceApplication using Java 17.0.9 with PID 5632 (C:\Users\vsaji\IdeaProjects\TafBookingService\build\classes\java\main started by vsaji in C:\Users\vsaji\IdeaProjects\TafBookingService)
+2025-01-26 15:03:34 [restartedMain] INFO  tekarchFlights.TafBookingService.TafBookingServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-26 15:03:34 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-26 15:03:34 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-26 15:03:37 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8084 (http)
+2025-01-26 15:03:37 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8084"]
+2025-01-26 15:03:37 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-26 15:03:37 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-26 15:03:37 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-26 15:03:37 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2928 ms
+2025-01-26 15:03:38 [restartedMain] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 12 mappings in 'requestMappingHandlerMapping'
+2025-01-26 15:03:38 [restartedMain] DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2025-01-26 15:03:38 [restartedMain] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-01-26 15:03:38 [restartedMain] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-01-26 15:03:39 [restartedMain] WARN  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-01-26 15:03:39 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8084"]
+2025-01-26 15:03:39 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8084 (http) with context path '/'
+2025-01-26 15:03:39 [restartedMain] INFO  tekarchFlights.TafBookingService.TafBookingServiceApplication - Started TafBookingServiceApplication in 5.674 seconds (process running for 7.132)
+2025-01-26 18:10:35 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-01-26 18:10:35 [restartedMain] INFO  tekarchFlights.TafBookingService.TafBookingServiceApplication - Starting TafBookingServiceApplication using Java 17.0.9 with PID 7936 (C:\Users\vsaji\IdeaProjects\TafBookingService\build\classes\java\main started by vsaji in C:\Users\vsaji\IdeaProjects\TafBookingService)
+2025-01-26 18:10:35 [restartedMain] INFO  tekarchFlights.TafBookingService.TafBookingServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-01-26 18:10:35 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-26 18:10:35 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-26 18:10:37 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8084 (http)
+2025-01-26 18:10:37 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8084"]
+2025-01-26 18:10:37 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-26 18:10:37 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2025-01-26 18:10:37 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-26 18:10:37 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1821 ms
+2025-01-26 18:10:38 [restartedMain] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 12 mappings in 'requestMappingHandlerMapping'
+2025-01-26 18:10:38 [restartedMain] DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2025-01-26 18:10:38 [restartedMain] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-01-26 18:10:38 [restartedMain] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-01-26 18:10:38 [restartedMain] WARN  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-01-26 18:10:38 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8084"]
+2025-01-26 18:10:38 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8084 (http) with context path '/'
+2025-01-26 18:10:38 [restartedMain] INFO  tekarchFlights.TafBookingService.TafBookingServiceApplication - Started TafBookingServiceApplication in 3.291 seconds (process running for 4.172)
+2025-01-27 14:31:13 [http-nio-8084-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-27 14:31:13 [http-nio-8084-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-27 14:31:13 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2025-01-27 14:31:13 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2025-01-27 14:31:13 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2025-01-27 14:31:13 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@7ffec3c
+2025-01-27 14:31:13 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@742db18b
+2025-01-27 14:31:13 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-01-27 14:31:13 [http-nio-8084-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 24 ms
+2025-01-27 14:31:13 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/api/bookings", parameters={}
+2025-01-27 14:31:13 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to tekarchFlights.TafBookingService.Controller.BookingController#createBooking(BookingRequest)
+2025-01-27 14:31:14 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [BookingRequest(user=7, flight=7, status=Booked)]
+2025-01-27 14:31:14 [http-nio-8084-exec-2] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:8081/api/flights/7
+2025-01-27 14:31:14 [http-nio-8084-exec-2] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-27 14:31:14 [http-nio-8084-exec-2] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-27 14:31:14 [http-nio-8084-exec-2] DEBUG org.springframework.web.client.RestTemplate - Reading to [tekarchFlights.TafBookingService.DTO.FlightResponse]
+2025-01-27 14:31:14 [http-nio-8084-exec-2] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:8081/api/users/7
+2025-01-27 14:31:14 [http-nio-8084-exec-2] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-27 14:31:14 [http-nio-8084-exec-2] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-27 14:31:14 [http-nio-8084-exec-2] DEBUG org.springframework.web.client.RestTemplate - Reading to [tekarchFlights.TafBookingService.DTO.UserResponse]
+2025-01-27 14:31:14 [http-nio-8084-exec-2] DEBUG org.springframework.web.client.RestTemplate - HTTP PUT http://localhost:8081/api/flights/7
+2025-01-27 14:31:14 [http-nio-8084-exec-2] DEBUG org.springframework.web.client.RestTemplate - Writing [FlightResponse(id=7, flightNumber=DAAB1237, departure=California, arrival=Raleigh, departureTime=2025-05-05T10:00, arrivalTime=2025-05-05T14:00, price=1020.0, availableSeats=9, createdAt=2025-01-19T16:30:25.096987, updatedAt=2025-01-26T16:02:06.493209)] with org.springframework.http.converter.json.MappingJackson2HttpMessageConverter
+2025-01-27 14:31:14 [http-nio-8084-exec-2] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-27 14:31:14 [http-nio-8084-exec-2] DEBUG org.springframework.web.client.RestTemplate - HTTP POST http://localhost:8081/api/bookings
+2025-01-27 14:31:14 [http-nio-8084-exec-2] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-27 14:31:14 [http-nio-8084-exec-2] DEBUG org.springframework.web.client.RestTemplate - Writing [BookingRequest(user=7, flight=7, status=Booked)] with org.springframework.http.converter.json.MappingJackson2HttpMessageConverter
+2025-01-27 14:31:14 [http-nio-8084-exec-2] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-27 14:31:14 [http-nio-8084-exec-2] DEBUG org.springframework.web.client.RestTemplate - Reading to [tekarchFlights.TafBookingService.DTO.BookingResponse]
+2025-01-27 14:31:14 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2025-01-27 14:31:14 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Writing [BookingResponse(id=29, user=UserResponse(id=7, username=uuuxxxxxohndoe, email=uuuxxxxhndoe@example.c (truncated)...]
+2025-01-27 14:31:14 [http-nio-8084-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2025-01-27 14:37:44 [http-nio-8084-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - OPTIONS "/api/bookings", parameters={}
+2025-01-27 14:37:44 [http-nio-8084-exec-4] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to tekarchFlights.TafBookingService.Controller.BookingController#createBooking(BookingRequest)
+2025-01-27 14:37:44 [http-nio-8084-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2025-01-27 14:37:44 [http-nio-8084-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/api/bookings", parameters={}
+2025-01-27 14:37:44 [http-nio-8084-exec-5] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to tekarchFlights.TafBookingService.Controller.BookingController#createBooking(BookingRequest)
+2025-01-27 14:37:44 [http-nio-8084-exec-5] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [BookingRequest(user=10, flight=21, status=Booked)]
+2025-01-27 14:37:44 [http-nio-8084-exec-5] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:8081/api/flights/21
+2025-01-27 14:37:44 [http-nio-8084-exec-5] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-27 14:37:44 [http-nio-8084-exec-5] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-27 14:37:44 [http-nio-8084-exec-5] DEBUG org.springframework.web.client.RestTemplate - Reading to [tekarchFlights.TafBookingService.DTO.FlightResponse]
+2025-01-27 14:37:44 [http-nio-8084-exec-5] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:8081/api/users/10
+2025-01-27 14:37:44 [http-nio-8084-exec-5] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-27 14:37:44 [http-nio-8084-exec-5] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-27 14:37:44 [http-nio-8084-exec-5] DEBUG org.springframework.web.client.RestTemplate - Reading to [tekarchFlights.TafBookingService.DTO.UserResponse]
+2025-01-27 14:37:44 [http-nio-8084-exec-5] DEBUG org.springframework.web.client.RestTemplate - HTTP PUT http://localhost:8081/api/flights/21
+2025-01-27 14:37:44 [http-nio-8084-exec-5] DEBUG org.springframework.web.client.RestTemplate - Writing [FlightResponse(id=21, flightNumber=CRxxx333, departure=Raleigh, arrival=Chicago, departureTime=2025-05-10T10:00, arrivalTime=2025-05-10T14:00, price=230.0, availableSeats=9, createdAt=2025-01-26T16:16:10.703873, updatedAt=2025-01-26T16:16:10.703873)] with org.springframework.http.converter.json.MappingJackson2HttpMessageConverter
+2025-01-27 14:37:44 [http-nio-8084-exec-5] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-27 14:37:44 [http-nio-8084-exec-5] DEBUG org.springframework.web.client.RestTemplate - HTTP POST http://localhost:8081/api/bookings
+2025-01-27 14:37:44 [http-nio-8084-exec-5] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-27 14:37:44 [http-nio-8084-exec-5] DEBUG org.springframework.web.client.RestTemplate - Writing [BookingRequest(user=10, flight=21, status=Booked)] with org.springframework.http.converter.json.MappingJackson2HttpMessageConverter
+2025-01-27 14:37:44 [http-nio-8084-exec-5] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-27 14:37:44 [http-nio-8084-exec-5] DEBUG org.springframework.web.client.RestTemplate - Reading to [tekarchFlights.TafBookingService.DTO.BookingResponse]
+2025-01-27 14:37:44 [http-nio-8084-exec-5] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2025-01-27 14:37:44 [http-nio-8084-exec-5] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Writing [BookingResponse(id=30, user=UserResponse(id=10, username=QQQwwwaaaaaa, email=QQQwwwwxoe@example.com, (truncated)...]
+2025-01-27 14:37:44 [http-nio-8084-exec-5] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2025-01-27 15:00:46 [http-nio-8084-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet - GET "/api/bookings", parameters={}
+2025-01-27 15:00:46 [http-nio-8084-exec-8] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to tekarchFlights.TafBookingService.Controller.BookingController#getAllFlights()
+2025-01-27 15:00:46 [http-nio-8084-exec-8] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:8081/api/bookings
+2025-01-27 15:00:46 [http-nio-8084-exec-8] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-27 15:00:46 [http-nio-8084-exec-8] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-27 15:00:46 [http-nio-8084-exec-8] DEBUG org.springframework.web.client.RestTemplate - Reading to [tekarchFlights.TafBookingService.DTO.BookingResponse[]]
+2025-01-27 15:00:46 [http-nio-8084-exec-8] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2025-01-27 15:00:46 [http-nio-8084-exec-8] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Writing [[BookingResponse(id=1, user=UserResponse(id=1, username=johndoe, email=johndoe@example.com, phone=12 (truncated)...]
+2025-01-27 15:00:46 [http-nio-8084-exec-8] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2025-01-27 15:53:30 [http-nio-8084-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet - OPTIONS "/api/bookings", parameters={}
+2025-01-27 15:53:30 [http-nio-8084-exec-10] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to tekarchFlights.TafBookingService.Controller.BookingController#createBooking(BookingRequest)
+2025-01-27 15:53:30 [http-nio-8084-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2025-01-27 15:53:31 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/api/bookings", parameters={}
+2025-01-27 15:53:31 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to tekarchFlights.TafBookingService.Controller.BookingController#createBooking(BookingRequest)
+2025-01-27 15:53:31 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [BookingRequest(user=4, flight=3, status=Booked)]
+2025-01-27 15:53:31 [http-nio-8084-exec-1] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:8081/api/flights/3
+2025-01-27 15:53:31 [http-nio-8084-exec-1] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-27 15:53:31 [http-nio-8084-exec-1] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-27 15:53:31 [http-nio-8084-exec-1] DEBUG org.springframework.web.client.RestTemplate - Reading to [tekarchFlights.TafBookingService.DTO.FlightResponse]
+2025-01-27 15:53:31 [http-nio-8084-exec-1] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:8081/api/users/4
+2025-01-27 15:53:31 [http-nio-8084-exec-1] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-27 15:53:31 [http-nio-8084-exec-1] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-27 15:53:31 [http-nio-8084-exec-1] DEBUG org.springframework.web.client.RestTemplate - Reading to [tekarchFlights.TafBookingService.DTO.UserResponse]
+2025-01-27 15:53:31 [http-nio-8084-exec-1] DEBUG org.springframework.web.client.RestTemplate - HTTP PUT http://localhost:8081/api/flights/3
+2025-01-27 15:53:31 [http-nio-8084-exec-1] DEBUG org.springframework.web.client.RestTemplate - Writing [FlightResponse(id=3, flightNumber=XXXB1234, departure=New York, arrival=Paris, departureTime=2025-03-03T10:00, arrivalTime=2025-03-03T14:00, price=1600.0, availableSeats=4, createdAt=2025-01-19T16:21:37.614536, updatedAt=2025-01-26T15:59:59.596934)] with org.springframework.http.converter.json.MappingJackson2HttpMessageConverter
+2025-01-27 15:53:31 [http-nio-8084-exec-1] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-27 15:53:31 [http-nio-8084-exec-1] DEBUG org.springframework.web.client.RestTemplate - HTTP POST http://localhost:8081/api/bookings
+2025-01-27 15:53:31 [http-nio-8084-exec-1] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-27 15:53:31 [http-nio-8084-exec-1] DEBUG org.springframework.web.client.RestTemplate - Writing [BookingRequest(user=4, flight=3, status=Booked)] with org.springframework.http.converter.json.MappingJackson2HttpMessageConverter
+2025-01-27 15:53:31 [http-nio-8084-exec-1] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-27 15:53:31 [http-nio-8084-exec-1] DEBUG org.springframework.web.client.RestTemplate - Reading to [tekarchFlights.TafBookingService.DTO.BookingResponse]
+2025-01-27 15:53:31 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2025-01-27 15:53:31 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Writing [BookingResponse(id=31, user=UserResponse(id=4, username=bbbbjohndoe, email=bbbohndoe@example.com, ph (truncated)...]
+2025-01-27 15:53:31 [http-nio-8084-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2025-01-27 16:13:47 [http-nio-8084-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - OPTIONS "/api/bookings", parameters={}
+2025-01-27 16:13:47 [http-nio-8084-exec-3] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to tekarchFlights.TafBookingService.Controller.BookingController#createBooking(BookingRequest)
+2025-01-27 16:13:47 [http-nio-8084-exec-3] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2025-01-27 16:13:47 [http-nio-8084-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/api/bookings", parameters={}
+2025-01-27 16:13:47 [http-nio-8084-exec-4] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to tekarchFlights.TafBookingService.Controller.BookingController#createBooking(BookingRequest)
+2025-01-27 16:13:47 [http-nio-8084-exec-4] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [BookingRequest(user=2, flight=3, status=Booked)]
+2025-01-27 16:13:47 [http-nio-8084-exec-4] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:8081/api/flights/3
+2025-01-27 16:13:47 [http-nio-8084-exec-4] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-27 16:13:47 [http-nio-8084-exec-4] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-27 16:13:47 [http-nio-8084-exec-4] DEBUG org.springframework.web.client.RestTemplate - Reading to [tekarchFlights.TafBookingService.DTO.FlightResponse]
+2025-01-27 16:13:47 [http-nio-8084-exec-4] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:8081/api/users/2
+2025-01-27 16:13:47 [http-nio-8084-exec-4] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-27 16:13:47 [http-nio-8084-exec-4] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-27 16:13:47 [http-nio-8084-exec-4] DEBUG org.springframework.web.client.RestTemplate - Reading to [tekarchFlights.TafBookingService.DTO.UserResponse]
+2025-01-27 16:13:47 [http-nio-8084-exec-4] DEBUG org.springframework.web.client.RestTemplate - HTTP PUT http://localhost:8081/api/flights/3
+2025-01-27 16:13:47 [http-nio-8084-exec-4] DEBUG org.springframework.web.client.RestTemplate - Writing [FlightResponse(id=3, flightNumber=XXXB1234, departure=New York, arrival=Paris, departureTime=2025-03-03T10:00, arrivalTime=2025-03-03T14:00, price=1600.0, availableSeats=3, createdAt=2025-01-19T16:21:37.614536, updatedAt=2025-01-27T15:53:31.089813)] with org.springframework.http.converter.json.MappingJackson2HttpMessageConverter
+2025-01-27 16:13:47 [http-nio-8084-exec-4] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-27 16:13:47 [http-nio-8084-exec-4] DEBUG org.springframework.web.client.RestTemplate - HTTP POST http://localhost:8081/api/bookings
+2025-01-27 16:13:47 [http-nio-8084-exec-4] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-27 16:13:47 [http-nio-8084-exec-4] DEBUG org.springframework.web.client.RestTemplate - Writing [BookingRequest(user=2, flight=3, status=Booked)] with org.springframework.http.converter.json.MappingJackson2HttpMessageConverter
+2025-01-27 16:13:47 [http-nio-8084-exec-4] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-27 16:13:47 [http-nio-8084-exec-4] DEBUG org.springframework.web.client.RestTemplate - Reading to [tekarchFlights.TafBookingService.DTO.BookingResponse]
+2025-01-27 16:13:47 [http-nio-8084-exec-4] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2025-01-27 16:13:47 [http-nio-8084-exec-4] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Writing [BookingResponse(id=32, user=UserResponse(id=2, username=xxxxxohndoe, email=xxxxhndoe@example.com, ph (truncated)...]
+2025-01-27 16:13:47 [http-nio-8084-exec-4] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2025-01-27 16:20:39 [http-nio-8084-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet - OPTIONS "/api/bookings", parameters={}
+2025-01-27 16:20:39 [http-nio-8084-exec-6] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to tekarchFlights.TafBookingService.Controller.BookingController#createBooking(BookingRequest)
+2025-01-27 16:20:39 [http-nio-8084-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2025-01-27 16:20:39 [http-nio-8084-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/api/bookings", parameters={}
+2025-01-27 16:20:39 [http-nio-8084-exec-7] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to tekarchFlights.TafBookingService.Controller.BookingController#createBooking(BookingRequest)
+2025-01-27 16:20:39 [http-nio-8084-exec-7] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [BookingRequest(user=5, flight=13, status=Booked)]
+2025-01-27 16:20:39 [http-nio-8084-exec-7] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:8081/api/flights/13
+2025-01-27 16:20:39 [http-nio-8084-exec-7] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-27 16:20:39 [http-nio-8084-exec-7] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-27 16:20:39 [http-nio-8084-exec-7] DEBUG org.springframework.web.client.RestTemplate - Reading to [tekarchFlights.TafBookingService.DTO.FlightResponse]
+2025-01-27 16:20:39 [http-nio-8084-exec-7] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:8081/api/users/5
+2025-01-27 16:20:39 [http-nio-8084-exec-7] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-27 16:20:39 [http-nio-8084-exec-7] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-27 16:20:39 [http-nio-8084-exec-7] DEBUG org.springframework.web.client.RestTemplate - Reading to [tekarchFlights.TafBookingService.DTO.UserResponse]
+2025-01-27 16:20:39 [http-nio-8084-exec-7] DEBUG org.springframework.web.client.RestTemplate - HTTP PUT http://localhost:8081/api/flights/13
+2025-01-27 16:20:39 [http-nio-8084-exec-7] DEBUG org.springframework.web.client.RestTemplate - Writing [FlightResponse(id=13, flightNumber=yyy123, departure=London, arrival=Paris, departureTime=2025-01-27T10:00, arrivalTime=2025-01-27T14:00, price=430.0, availableSeats=9, createdAt=2025-01-26T15:39:14.969711, updatedAt=2025-01-26T15:39:14.969711)] with org.springframework.http.converter.json.MappingJackson2HttpMessageConverter
+2025-01-27 16:20:39 [http-nio-8084-exec-7] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-27 16:20:39 [http-nio-8084-exec-7] DEBUG org.springframework.web.client.RestTemplate - HTTP POST http://localhost:8081/api/bookings
+2025-01-27 16:20:39 [http-nio-8084-exec-7] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-27 16:20:39 [http-nio-8084-exec-7] DEBUG org.springframework.web.client.RestTemplate - Writing [BookingRequest(user=5, flight=13, status=Booked)] with org.springframework.http.converter.json.MappingJackson2HttpMessageConverter
+2025-01-27 16:20:39 [http-nio-8084-exec-7] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-27 16:20:39 [http-nio-8084-exec-7] DEBUG org.springframework.web.client.RestTemplate - Reading to [tekarchFlights.TafBookingService.DTO.BookingResponse]
+2025-01-27 16:20:39 [http-nio-8084-exec-7] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2025-01-27 16:20:39 [http-nio-8084-exec-7] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Writing [BookingResponse(id=33, user=UserResponse(id=5, username=cccjohndoe, email=cccohndoe@example.com, pho (truncated)...]
+2025-01-27 16:20:39 [http-nio-8084-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2025-01-27 16:31:10 [http-nio-8084-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - OPTIONS "/api/bookings", parameters={}
+2025-01-27 16:31:10 [http-nio-8084-exec-9] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to tekarchFlights.TafBookingService.Controller.BookingController#createBooking(BookingRequest)
+2025-01-27 16:31:10 [http-nio-8084-exec-9] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
+2025-01-27 16:31:10 [http-nio-8084-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet - POST "/api/bookings", parameters={}
+2025-01-27 16:31:10 [http-nio-8084-exec-10] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to tekarchFlights.TafBookingService.Controller.BookingController#createBooking(BookingRequest)
+2025-01-27 16:31:10 [http-nio-8084-exec-10] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [BookingRequest(user=7, flight=10, status=Booked)]
+2025-01-27 16:31:11 [http-nio-8084-exec-10] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:8081/api/flights/10
+2025-01-27 16:31:11 [http-nio-8084-exec-10] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-27 16:31:11 [http-nio-8084-exec-10] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-27 16:31:11 [http-nio-8084-exec-10] DEBUG org.springframework.web.client.RestTemplate - Reading to [tekarchFlights.TafBookingService.DTO.FlightResponse]
+2025-01-27 16:31:11 [http-nio-8084-exec-10] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:8081/api/users/7
+2025-01-27 16:31:11 [http-nio-8084-exec-10] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-27 16:31:11 [http-nio-8084-exec-10] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-27 16:31:11 [http-nio-8084-exec-10] DEBUG org.springframework.web.client.RestTemplate - Reading to [tekarchFlights.TafBookingService.DTO.UserResponse]
+2025-01-27 16:31:11 [http-nio-8084-exec-10] DEBUG org.springframework.web.client.RestTemplate - HTTP PUT http://localhost:8081/api/flights/10
+2025-01-27 16:31:11 [http-nio-8084-exec-10] DEBUG org.springframework.web.client.RestTemplate - Writing [FlightResponse(id=10, flightNumber=JJ45610, departure=London, arrival=Paris, departureTime=2025-02-15T12:00, arrivalTime=2025-02-15T20:00, price=5800.0, availableSeats=160, createdAt=2025-01-19T23:38:18.888273, updatedAt=2025-01-26T15:58:39.299424)] with org.springframework.http.converter.json.MappingJackson2HttpMessageConverter
+2025-01-27 16:31:11 [http-nio-8084-exec-10] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-27 16:31:11 [http-nio-8084-exec-10] DEBUG org.springframework.web.client.RestTemplate - HTTP POST http://localhost:8081/api/bookings
+2025-01-27 16:31:11 [http-nio-8084-exec-10] DEBUG org.springframework.web.client.RestTemplate - Accept=[application/json, application/yaml, application/*+json]
+2025-01-27 16:31:11 [http-nio-8084-exec-10] DEBUG org.springframework.web.client.RestTemplate - Writing [BookingRequest(user=7, flight=10, status=Booked)] with org.springframework.http.converter.json.MappingJackson2HttpMessageConverter
+2025-01-27 16:31:11 [http-nio-8084-exec-10] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+2025-01-27 16:31:11 [http-nio-8084-exec-10] DEBUG org.springframework.web.client.RestTemplate - Reading to [tekarchFlights.TafBookingService.DTO.BookingResponse]
+2025-01-27 16:31:11 [http-nio-8084-exec-10] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2025-01-27 16:31:11 [http-nio-8084-exec-10] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Writing [BookingResponse(id=34, user=UserResponse(id=7, username=uuuxxxxxohndoe, email=uuuxxxxhndoe@example.c (truncated)...]
+2025-01-27 16:31:11 [http-nio-8084-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet - Completed 200 OK
