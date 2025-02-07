@@ -8,7 +8,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.HttpMethod;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
@@ -97,16 +96,23 @@ public class BookingService {
     }
 
 
-    public List<BookingResponse> getBookingsByFlightId(Long flightId) throws IOException {
+    public List<Map<String, Object>> getBookingsByFlightId(Long flightId) throws IOException {
         try {
             //    String url = DATASTORE_FLIGHT_URL + "/" + flightId;
             String url = DATASTORE_BOOKING_URL + "/flight/" + flightId;
-            ResponseEntity<List<BookingResponse>> response = restTemplate.exchange(
-                    url, HttpMethod.GET,
+            ResponseEntity<List<Map<String, Object>>> response = restTemplate.exchange(
+                    url,
+                    HttpMethod.GET,
                     null,
-                    new ParameterizedTypeReference<List<BookingResponse>>() {
+                    new ParameterizedTypeReference<List<Map<String, Object>>>() {
                     }
             );
+//            ResponseEntity<List<BookingResponse>> response = restTemplate.exchange(
+//                    url, HttpMethod.GET,
+//                    null,
+//                    new ParameterizedTypeReference<List<BookingResponse>>() {
+//                    }
+//            );
             return response.getBody();
         } catch (Exception ex) {
             logger.error("Error fetching bookings for flightId {}: {}", flightId, ex.getMessage(), ex);

@@ -55,9 +55,9 @@ public class BookingController {
     }
 
     @GetMapping("/flight/{flightId}")
-    public ResponseEntity<List<BookingResponse>> getBookingsByFlightId(@PathVariable Long flightId) {
+    public ResponseEntity<List<Map<String, Object>>> getBookingsByFlightId(@PathVariable Long flightId) {
         try {
-            List<BookingResponse> flightBookings = bookingService.getBookingsByFlightId(flightId);
+            List<Map<String, Object>> flightBookings = bookingService.getBookingsByFlightId(flightId);
 
             // Check if the result is empty or null
             if (flightBookings == null || flightBookings.isEmpty()) {
